@@ -1,14 +1,14 @@
-Litecoin Core integration/staging tree
+UluCoin Core integration/staging tree based on litecoin
 =====================================
 
 [![Build Status](https://travis-ci.org/litecoin-project/litecoin.svg?branch=master)](https://travis-ci.org/litecoin-project/litecoin)
 
 https://litecoin.org
 
-What is Litecoin?
+What is UluCoin?
 ----------------
 
-Litecoin is an experimental digital currency that enables instant payments to
+UluCoin is an experimental digital currency that enables instant payments to
 anyone, anywhere in the world. Litecoin uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
 out collectively by the network. Litecoin Core is the name of open source
