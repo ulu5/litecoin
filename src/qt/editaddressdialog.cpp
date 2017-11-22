@@ -107,7 +107,11 @@ void EditAddressDialog::accept()
             break;
         case AddressTableModel::INVALID_ADDRESS:
             QMessageBox::warning(this, windowTitle(),
+<<<<<<< HEAD
                 tr("The entered address \"%1\" is not a valid Litecoin address.").arg(ui->addressEdit->text()),
+=======
+                tr("The entered address \"%1\" is not a valid Ulucoin address.").arg(ui->addressEdit->text()),
+>>>>>>> dev
                 QMessageBox::Ok, QMessageBox::Ok);
             break;
         case AddressTableModel::DUPLICATE_ADDRESS:

@@ -525,8 +525,13 @@ std::string HelpMessage(HelpMessageMode mode)
 
 std::string LicenseInfo()
 {
+<<<<<<< HEAD
     const std::string URL_SOURCE_CODE = "<https://github.com/litecoin-project/litecoin>";
     const std::string URL_WEBSITE = "<https://litecoin.org>";
+=======
+    const std::string URL_SOURCE_CODE = "<https://github.com/ulucoin-project/ulucoin>";
+    const std::string URL_WEBSITE = "<https://ulucoin.org>";
+>>>>>>> dev
 
     return CopyrightHolders(strprintf(_("Copyright (C) %i-%i"), 2011, COPYRIGHT_YEAR) + " ") + "\n" +
            "\n" +
@@ -815,7 +820,11 @@ void InitLogging()
     fLogIPs = gArgs.GetBoolArg("-logips", DEFAULT_LOGIPS);
 
     LogPrintf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
+<<<<<<< HEAD
     LogPrintf("Litecoin version %s\n", FormatFullVersion());
+=======
+    LogPrintf("Ulucoin version %s\n", FormatFullVersion());
+>>>>>>> dev
 }
 
 namespace { // Variables internal to initialization process only

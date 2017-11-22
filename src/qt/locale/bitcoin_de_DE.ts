@@ -51,7 +51,11 @@
     </message>
     <message>
         <source>C&amp;hoose</source>
+<<<<<<< HEAD
         <translation>Dies sind deine Litecoin Adressen zum Senden von Zahlungsmitteln.
+=======
+        <translation>Dies sind deine Ulucoin Adressen zum Senden von Zahlungsmitteln.
+>>>>>>> dev
 Überprüfe immer die Menge, sowie die Empfänger-Adresse vor dem Senden von Coins.</translation>
     </message>
     <message>

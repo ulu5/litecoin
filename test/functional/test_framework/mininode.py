@@ -34,7 +34,11 @@ import sys
 import time
 from threading import RLock, Thread
 
+<<<<<<< HEAD
 import litecoin_scrypt
+=======
+import ulucoin_scrypt
+>>>>>>> dev
 from test_framework.siphash import siphash256
 from test_framework.util import hex_str_to_bytes, bytes_to_hex_str
 
@@ -586,7 +590,11 @@ class CBlockHeader(object):
             r += struct.pack("<I", self.nNonce)
             self.sha256 = uint256_from_str(hash256(r))
             self.hash = encode(hash256(r)[::-1], 'hex_codec').decode('ascii')
+<<<<<<< HEAD
             self.scrypt256 = uint256_from_str(litecoin_scrypt.getPoWHash(r))
+=======
+            self.scrypt256 = uint256_from_str(ulucoin_scrypt.getPoWHash(r))
+>>>>>>> dev
 
     def rehash(self):
         self.sha256 = None
@@ -1705,7 +1713,11 @@ class NodeConn(asyncore.dispatcher):
             vt.addrFrom.port = 0
             self.send_message(vt, True)
 
+<<<<<<< HEAD
         logger.info('Connecting to Litecoin Node: %s:%d' % (self.dstaddr, self.dstport))
+=======
+        logger.info('Connecting to Ulucoin Node: %s:%d' % (self.dstaddr, self.dstport))
+>>>>>>> dev
 
         try:
             self.connect((dstaddr, dstport))

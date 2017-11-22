@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 Fuzz-testing Litecoin Core
 ==========================
 
 A special test harness `test_litecoin_fuzzy` is provided to provide an easy
+=======
+Fuzz-testing Ulucoin Core
+==========================
+
+A special test harness `test_ulucoin_fuzzy` is provided to provide an easy
+>>>>>>> dev
 entry point for fuzzers and the like. In this document we'll describe how to
 use it with AFL.
 
@@ -20,13 +27,21 @@ export AFLPATH=$PWD
 Instrumentation
 ----------------
 
+<<<<<<< HEAD
 To build Litecoin Core using AFL instrumentation (this assumes that the
+=======
+To build Ulucoin Core using AFL instrumentation (this assumes that the
+>>>>>>> dev
 `AFLPATH` was set as above):
 ```
 ./configure --disable-ccache --disable-shared --enable-tests CC=${AFLPATH}/afl-gcc CXX=${AFLPATH}/afl-g++
 export AFL_HARDEN=1
 cd src/
+<<<<<<< HEAD
 make test/test_litecoin_fuzzy
+=======
+make test/test_ulucoin_fuzzy
+>>>>>>> dev
 ```
 We disable ccache because we don't want to pollute the ccache with instrumented
 objects, and similarly don't want to use non-instrumented cached objects linked
@@ -65,7 +80,11 @@ Fuzzing
 
 To start the actual fuzzing use:
 ```
+<<<<<<< HEAD
 $AFLPATH/afl-fuzz -i ${AFLIN} -o ${AFLOUT} -m52 -- test/test_litecoin_fuzzy
+=======
+$AFLPATH/afl-fuzz -i ${AFLIN} -o ${AFLOUT} -m52 -- test/test_ulucoin_fuzzy
+>>>>>>> dev
 ```
 
 You may have to change a few kernel parameters to test optimally - `afl-fuzz`

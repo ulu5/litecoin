@@ -294,7 +294,11 @@ UniValue getaddednodeinfo(const JSONRPCRequest& request)
             "    \"connected\" : true|false,          (boolean) If connected\n"
             "    \"addresses\" : [                    (list of objects) Only when connected = true\n"
             "       {\n"
+<<<<<<< HEAD
             "         \"address\" : \"192.168.0.201:9333\",  (string) The litecoin server IP and port we're connected to\n"
+=======
+            "         \"address\" : \"192.168.0.201:9333\",  (string) The ulucoin server IP and port we're connected to\n"
+>>>>>>> dev
             "         \"connected\" : \"outbound\"           (string) connection, inbound or outbound\n"
             "       }\n"
             "     ]\n"

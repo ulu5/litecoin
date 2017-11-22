@@ -7,7 +7,11 @@
 
 #include "tinyformat.h"
 
+<<<<<<< HEAD
 const std::string CURRENCY_UNIT = "LTC";
+=======
+const std::string CURRENCY_UNIT = "ULU";
+>>>>>>> dev
 
 CFeeRate::CFeeRate(const CAmount& nFeePaid, size_t nBytes_)
 {

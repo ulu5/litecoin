@@ -61,7 +61,11 @@ TestingSetup::TestingSetup(const std::string& chainName) : BasicTestingSetup(cha
 
         RegisterAllCoreRPCCommands(tableRPC);
         ClearDatadirCache();
+<<<<<<< HEAD
         pathTemp = GetTempPath() / strprintf("test_litecoin_%lu_%i", (unsigned long)GetTime(), (int)(InsecureRandRange(100000)));
+=======
+        pathTemp = GetTempPath() / strprintf("test_ulucoin_%lu_%i", (unsigned long)GetTime(), (int)(InsecureRandRange(100000)));
+>>>>>>> dev
         fs::create_directories(pathTemp);
         gArgs.ForceSetArg("-datadir", pathTemp.string());
 

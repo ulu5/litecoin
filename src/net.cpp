@@ -1483,7 +1483,11 @@ void ThreadMapPort()
             }
         }
 
+<<<<<<< HEAD
         std::string strDesc = "Litecoin " + FormatFullVersion();
+=======
+        std::string strDesc = "Ulucoin " + FormatFullVersion();
+>>>>>>> dev
 
         try {
             while (true) {

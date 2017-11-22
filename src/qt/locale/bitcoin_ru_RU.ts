@@ -230,8 +230,13 @@
         <translation>&amp;Проверить сообщение...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin Core</translation>
+=======
+        <source>Ulucoin</source>
+        <translation>Ulucoin Core</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Wallet</source>
@@ -442,8 +447,13 @@
         <translation>Пробросить порт через &amp;UPnP</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
         <translation>Подключится к сети Litecoin через SOCKS5 прокси.</translation>
+=======
+        <source>Connect to the Ulucoin network through a SOCKS5 proxy.</source>
+        <translation>Подключится к сети Ulucoin через SOCKS5 прокси.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -522,7 +532,11 @@
 <context>
     <name>QObject</name>
     <message>
+<<<<<<< HEAD
         <source>Enter a Litecoin address (e.g. %1)</source>
+=======
+        <source>Enter a Ulucoin address (e.g. %1)</source>
+>>>>>>> dev
         <translation>Введите биткоин-адрес (напр. %1)</translation>
     </message>
     <message numerus="yes">
@@ -832,8 +846,13 @@
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
+=======
+        <source>Ulucoin Core</source>
+        <translation>Ulucoin Core</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Whitelisted peers cannot be DoS banned and their transactions are always relayed, even if they are already in the mempool, useful e.g. for a gateway</source>

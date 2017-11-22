@@ -47,14 +47,24 @@
 #endif
 
 const int BITCOIN_IPC_CONNECT_TIMEOUT = 1000; // milliseconds
+<<<<<<< HEAD
 const QString BITCOIN_IPC_PREFIX("litecoin:");
+=======
+const QString BITCOIN_IPC_PREFIX("ulucoin:");
+>>>>>>> dev
 // BIP70 payment protocol messages
 const char* BIP70_MESSAGE_PAYMENTACK = "PaymentACK";
 const char* BIP70_MESSAGE_PAYMENTREQUEST = "PaymentRequest";
 // BIP71 payment protocol media types
+<<<<<<< HEAD
 const char* BIP71_MIMETYPE_PAYMENT = "application/litecoin-payment";
 const char* BIP71_MIMETYPE_PAYMENTACK = "application/litecoin-paymentack";
 const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/litecoin-paymentrequest";
+=======
+const char* BIP71_MIMETYPE_PAYMENT = "application/ulucoin-payment";
+const char* BIP71_MIMETYPE_PAYMENTACK = "application/ulucoin-paymentack";
+const char* BIP71_MIMETYPE_PAYMENTREQUEST = "application/ulucoin-paymentrequest";
+>>>>>>> dev
 
 struct X509StoreDeleter {
       void operator()(X509_STORE* b) {
@@ -78,7 +88,11 @@ namespace // Anon namespace
 //
 static QString ipcServerName()
 {
+<<<<<<< HEAD
     QString name("LitecoinQt");
+=======
+    QString name("UlucoinQt");
+>>>>>>> dev
 
     // Append a simple hash of the datadir
     // Note that GetDataDir(true) returns a different path
@@ -326,7 +340,11 @@ PaymentServer::PaymentServer(QObject* parent, bool startLocalServer) :
         if (!uriServer->listen(name)) {
             // constructor is called early in init, so don't use "Q_EMIT message()" here
             QMessageBox::critical(0, tr("Payment request error"),
+<<<<<<< HEAD
                 tr("Cannot start litecoin: click-to-pay handler"));
+=======
+                tr("Cannot start ulucoin: click-to-pay handler"));
+>>>>>>> dev
         }
         else {
             connect(uriServer, SIGNAL(newConnection()), this, SLOT(handleURIConnection()));
@@ -451,7 +469,11 @@ void PaymentServer::handleURIOrFile(const QString& s)
             }
             else
                 Q_EMIT message(tr("URI handling"),
+<<<<<<< HEAD
                     tr("URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters."),
+=======
+                    tr("URI cannot be parsed! This can be caused by an invalid Ulucoin address or malformed URI parameters."),
+>>>>>>> dev
                     CClientUIInterface::ICON_WARNING);
 
             return;

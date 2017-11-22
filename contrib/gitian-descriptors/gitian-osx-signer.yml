@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 name: "litecoin-dmg-signer"
+=======
+name: "ulucoin-dmg-signer"
+>>>>>>> dev
 suites:
 - "trusty"
 architectures:
@@ -7,10 +11,17 @@ architectures:
 packages:
 - "faketime"
 remotes:
+<<<<<<< HEAD
 - "url": "https://github.com/litecoin-project/litecoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "litecoin-osx-unsigned.tar.gz"
+=======
+- "url": "https://github.com/ulucoin-project/ulucoin-detached-sigs.git"
+  "dir": "signature"
+files:
+- "ulucoin-osx-unsigned.tar.gz"
+>>>>>>> dev
 script: |
   WRAP_DIR=$HOME/wrapped
   mkdir -p ${WRAP_DIR}
@@ -27,8 +38,13 @@ script: |
     chmod +x ${WRAP_DIR}/${prog}
   done
 
+<<<<<<< HEAD
   UNSIGNED=litecoin-osx-unsigned.tar.gz
   SIGNED=litecoin-osx-signed.dmg
+=======
+  UNSIGNED=ulucoin-osx-unsigned.tar.gz
+  SIGNED=ulucoin-osx-signed.dmg
+>>>>>>> dev
 
   tar -xf ${UNSIGNED}
   OSX_VOLNAME="$(cat osx_volname)"

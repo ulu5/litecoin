@@ -38,7 +38,11 @@ void RPCNestedTests::rpcNestedTests()
     // could be moved to a more generic place when we add more tests on QT level
     tableRPC.appendCommand("rpcNestedTest", &vRPCCommands[0]);
     ClearDatadirCache();
+<<<<<<< HEAD
     std::string path = QDir::tempPath().toStdString() + "/" + strprintf("test_litecoin_qt_%lu_%i", (unsigned long)GetTime(), (int)(GetRand(100000)));
+=======
+    std::string path = QDir::tempPath().toStdString() + "/" + strprintf("test_ulucoin_qt_%lu_%i", (unsigned long)GetTime(), (int)(GetRand(100000)));
+>>>>>>> dev
     QDir dir(QString::fromStdString(path));
     dir.mkpath(".");
     gArgs.ForceSetArg("-datadir", path);

@@ -6,7 +6,11 @@
 set -e
 
 ROOTDIR=dist
+<<<<<<< HEAD
 BUNDLE="${ROOTDIR}/Litecoin-Qt.app"
+=======
+BUNDLE="${ROOTDIR}/Ulucoin-Qt.app"
+>>>>>>> dev
 CODESIGN=codesign
 TEMPDIR=sign.temp
 TEMPLIST=${TEMPDIR}/signatures.txt

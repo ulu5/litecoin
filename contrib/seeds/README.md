@@ -8,7 +8,11 @@ and remove old versions as necessary.
 
 The seeds compiled into the release are created from poolers's DNS seed data, like this:
 
+<<<<<<< HEAD
     curl -s https://www.litecoinpool.org/seeds.txt > seeds_main.txt
+=======
+    curl -s https://www.ulucoinpool.org/seeds.txt > seeds_main.txt
+>>>>>>> dev
     python3 makeseeds.py < seeds_main.txt > nodes_main.txt
     python3 generate-seeds.py . > ../../src/chainparamsseeds.h
 

@@ -16,7 +16,11 @@ OpenURIDialog::OpenURIDialog(QWidget *parent) :
 {
     ui->setupUi(this);
 #if QT_VERSION >= 0x040700
+<<<<<<< HEAD
     ui->uriEdit->setPlaceholderText("litecoin:");
+=======
+    ui->uriEdit->setPlaceholderText("ulucoin:");
+>>>>>>> dev
 #endif
 }
 
@@ -48,5 +52,9 @@ void OpenURIDialog::on_selectFileButton_clicked()
     if(filename.isEmpty())
         return;
     QUrl fileUri = QUrl::fromLocalFile(filename);
+<<<<<<< HEAD
     ui->uriEdit->setText("litecoin:?r=" + QUrl::toPercentEncoding(fileUri.toString()));
+=======
+    ui->uriEdit->setText("ulucoin:?r=" + QUrl::toPercentEncoding(fileUri.toString()));
+>>>>>>> dev
 }

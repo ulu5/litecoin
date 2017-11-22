@@ -1,7 +1,11 @@
 WINDOWS BUILD NOTES
 ====================
 
+<<<<<<< HEAD
 Below are some notes on how to build Litecoin Core for Windows.
+=======
+Below are some notes on how to build Ulucoin Core for Windows.
+>>>>>>> dev
 
 Most developers use cross-compilation from Ubuntu to build executables for
 Windows. This is also used to build the release binaries.
@@ -102,6 +106,12 @@ Installation
 After building using the Windows subsystem it can be useful to copy the compiled
 executables to a directory on the windows drive in the same directory structure
 as they appear in the release `.zip` archive. This can be done in the following
+<<<<<<< HEAD
 way. This will install to `c:\workspace\litecoin`, for example:
 
     make install DESTDIR=/mnt/c/workspace/litecoin
+=======
+way. This will install to `c:\workspace\ulucoin`, for example:
+
+    make install DESTDIR=/mnt/c/workspace/ulucoin
+>>>>>>> dev

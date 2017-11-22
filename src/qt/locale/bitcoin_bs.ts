@@ -14,8 +14,13 @@
 <context>
     <name>BitcoinGUI</name>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Ulucoin</source>
+        <translation>Ulucoin</translation>
+>>>>>>> dev
     </message>
     </context>
 <context>
@@ -156,8 +161,13 @@
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Litecoin Jezrga</translation>
+=======
+        <source>Ulucoin Core</source>
+        <translation>Ulucoin Jezrga</translation>
+>>>>>>> dev
     </message>
     </context>
 </TS>

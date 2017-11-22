@@ -87,8 +87,13 @@
 // Application startup time (used for uptime calculation)
 const int64_t nStartupTime = GetTime();
 
+<<<<<<< HEAD
 const char * const BITCOIN_CONF_FILENAME = "litecoin.conf";
 const char * const BITCOIN_PID_FILENAME = "litecoin.pid";
+=======
+const char * const BITCOIN_CONF_FILENAME = "ulucoin.conf";
+const char * const BITCOIN_PID_FILENAME = "ulucoin.pid";
+>>>>>>> dev
 
 ArgsManager gArgs;
 bool fPrintToConsole = false;
@@ -505,7 +510,11 @@ static std::string FormatException(const std::exception* pex, const char* pszThr
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(nullptr, pszModule, sizeof(pszModule));
 #else
+<<<<<<< HEAD
     const char* pszModule = "litecoin";
+=======
+    const char* pszModule = "ulucoin";
+>>>>>>> dev
 #endif
     if (pex)
         return strprintf(
@@ -530,7 +539,11 @@ fs::path GetDefaultDataDir()
     // Unix: ~/.bitcoin
 #ifdef WIN32
     // Windows
+<<<<<<< HEAD
     return GetSpecialFolderPath(CSIDL_APPDATA) / "Litecoin";
+=======
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Ulucoin";
+>>>>>>> dev
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -540,10 +553,17 @@ fs::path GetDefaultDataDir()
         pathRet = fs::path(pszHome);
 #ifdef MAC_OSX
     // Mac
+<<<<<<< HEAD
     return pathRet / "Library/Application Support/Litecoin";
 #else
     // Unix
     return pathRet / ".litecoin";
+=======
+    return pathRet / "Library/Application Support/Ulucoin";
+#else
+    // Unix
+    return pathRet / ".ulucoin";
+>>>>>>> dev
 #endif
 #endif
 }

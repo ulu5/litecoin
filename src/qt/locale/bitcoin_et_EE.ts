@@ -130,8 +130,13 @@
         <translation>Kõvakettal olevate plokkide reindekseerimine...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Ulucoin</source>
+        <translation>Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Wallet</source>
@@ -760,8 +765,13 @@
         <translation>Valikud:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
+=======
+        <source>Ulucoin Core</source>
+        <translation>Ulucoin Core</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Information</source>

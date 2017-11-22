@@ -154,8 +154,13 @@
         <translation>Newid y cyfrinymadrodd a ddefnyddiwyd ar gyfer amgryptio'r waled</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Ulucoin</source>
+        <translation>Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Wallet</source>
@@ -640,8 +645,13 @@
         <translation>Opsiynau:</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Craidd Litecoin</translation>
+=======
+        <source>Ulucoin Core</source>
+        <translation>Craidd Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Information</source>

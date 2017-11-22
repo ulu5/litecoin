@@ -62,11 +62,19 @@
         <translation>כתובות לקבלה</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>אלו הן כתובות לייטקוין שלך לשליחת תשלומים. חשוב לבדוק את כמות הכתובות המקבלות לפני שליחת מטבעות.</translation>
     </message>
     <message>
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+=======
+        <source>These are your Ulucoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>אלו הן כתובות לייטקוין שלך לשליחת תשלומים. חשוב לבדוק את כמות הכתובות המקבלות לפני שליחת מטבעות.</translation>
+    </message>
+    <message>
+        <source>These are your Ulucoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+>>>>>>> dev
         <translation>אלו הן כתובות לייטקוין שלך לקבלת תשלומים. מומלץ להשתמש בכתובת חדשה לכל העברה.</translation>
     </message>
     <message>
@@ -180,7 +188,11 @@
         <translation>הארנק מוצפן</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+=======
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ulucoins from being stolen by malware infecting your computer.</source>
+>>>>>>> dev
         <translation>%1 ייסגר כעת כדי לסיים את תהליך ההצפנה. נא לשים לב כי הצפנת הארנק שלך לא יכול להגן על הביטקוינים שלך מפני גניבה או נוזקה שתוקפת את מחשבך.</translation>
     </message>
     <message>
@@ -338,7 +350,11 @@
         <translation>המקטעים נוספים למפתח בכונן…</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Litecoin address</source>
+=======
+        <source>Send coins to a Ulucoin address</source>
+>>>>>>> dev
         <translation>שליחת מטבעות לכתובת לייטקוין</translation>
     </message>
     <message>
@@ -362,7 +378,11 @@
         <translation>&amp;אימות הודעה…</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
+=======
+        <source>Ulucoin</source>
+>>>>>>> dev
         <translation>לייטקוין</translation>
     </message>
     <message>
@@ -390,11 +410,19 @@
         <translation>הצפנת המפתחות הפרטיים ששייכים לארנק שלך</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>חתום על הודעות עם כתובות לייטקוין שלך כדי להוכיח שהן בבעלותך</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
+=======
+        <source>Sign messages with your Ulucoin addresses to prove you own them</source>
+        <translation>חתום על הודעות עם כתובות לייטקוין שלך כדי להוכיח שהן בבעלותך</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Ulucoin addresses</source>
+>>>>>>> dev
         <translation>אמת הודעות כדי להבטיח שהן נחתמו עם כתובת לייטקוין מסוימות</translation>
     </message>
     <message>
@@ -414,8 +442,13 @@
         <translation>סרגל כלים לשוניות</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :litecoin)</translation>
+=======
+        <source>Request payments (generates QR codes and ulucoin: URIs)</source>
+        <translation>בקשת תשלומים (יצירה של קודים מסוג QR וסכימות כתובות משאב של :ulucoin)</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,7 +459,11 @@
         <translation>הצגת רשימת הכתובות והתוויות הנמצאות בשימוש</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open a litecoin: URI or payment request</source>
+=======
+        <source>Open a ulucoin: URI or payment request</source>
+>>>>>>> dev
         <translation>פתיחת לייטקוין: כתובת משאב או בקשת תשלום</translation>
     </message>
     <message>
@@ -434,7 +471,11 @@
         <translation>אפשרויות &amp;שורת הפקודה</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n active connection(s) to Litecoin network</source>
+=======
+        <source>%n active connection(s) to Ulucoin network</source>
+>>>>>>> dev
         <translation><numerusform>חיבור אחד פעיל לרשת לייטקוין</numerusform><numerusform>%n חיבורים פעילים לרשת לייטקוין</numerusform></translation>
     </message>
     <message>
@@ -470,7 +511,11 @@
         <translation>עדכני</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
+=======
+        <source>Show the %1 help message to get a list with possible Ulucoin command-line options</source>
+>>>>>>> dev
         <translation>יש להציג את הודעת העזרה של %1 כדי להציג רשימה עם אפשרויות שורת פקודה לייטקוין</translation>
     </message>
     <message>
@@ -532,7 +577,11 @@
         <translation>הארנק &lt;b&gt;מוצפן&lt;/b&gt; ו&lt;b&gt;נעול&lt;/b&gt; כרגע</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
+=======
+        <source>A fatal error occurred. Ulucoin can no longer continue safely and will quit.</source>
+>>>>>>> dev
         <translation>אירעה שגיאה חמורה. אין אפשרות להשתמש עוד בלייטקוין באופן מאובטח והיישום ייסגר.</translation>
     </message>
 </context>
@@ -714,7 +763,11 @@
         <translation>עריכת כתובת השליחה</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Litecoin address.</source>
+=======
+        <source>The entered address "%1" is not a valid Ulucoin address.</source>
+>>>>>>> dev
         <translation>הכתובת שהוקלדה „%1” היא אינה כתובת לייטקוין תקנית.</translation>
     </message>
     <message>
@@ -996,7 +1049,11 @@
         <translation>עודף &amp;בלתי מאושר מההשקעה</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+=======
+        <source>Automatically open the Ulucoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+>>>>>>> dev
         <translation>פתיחת הפתחה של לייטקוין בנתב באופן אוטומטי. עובד רק אם UPnP מופעל ונתמך בנתב.</translation>
     </message>
     <message>
@@ -1004,7 +1061,11 @@
         <translation>מיפוי פתחה באמצעות UPnP</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+=======
+        <source>Connect to the Ulucoin network through a SOCKS5 proxy.</source>
+>>>>>>> dev
         <translation>התחבר לרשת לייטקוין דרך פרוקסי SOCKS5.</translation>
     </message>
     <message>
@@ -1123,7 +1184,11 @@
         <translation>טופס</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ulucoin network after a connection is established, but this process has not completed yet.</source>
+>>>>>>> dev
         <translation>המידע המוצג עשוי להיות מיושן. הארנק שלך מסתנכרן באופן אוטומטי עם רשת לייטקוין לאחר יצירת החיבור, אך התהליך טרם הסתיים.</translation>
     </message>
     <message>
@@ -1198,8 +1263,13 @@
         <translation>שגיאת בקשת תשלום</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot start litecoin: click-to-pay handler</source>
         <translation>לא ניתן להפעיל את המקשר litecoin: click-to-pay</translation>
+=======
+        <source>Cannot start ulucoin: click-to-pay handler</source>
+        <translation>לא ניתן להפעיל את המקשר ulucoin: click-to-pay</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>URI handling</source>
@@ -1272,7 +1342,11 @@
         <translation>כמות</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Litecoin address (e.g. %1)</source>
+=======
+        <source>Enter a Ulucoin address (e.g. %1)</source>
+>>>>>>> dev
         <translation>נא להזין כתובת לייטקוין (למשל: %1)</translation>
     </message>
     <message>
@@ -1672,7 +1746,11 @@
         <translation>ש&amp;ימוש &amp;חוזר בכתובת קבלה קיימת (לא מומלץ)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
+=======
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Ulucoin network.</source>
+>>>>>>> dev
         <translation>הודעת רשות לצירוף לבקשת התשלום שתוצג בעת פתיחת הבקשה. לתשומת לבך: ההודעה לא תישלח עם התשלום ברשת לייטקוין.</translation>
     </message>
     <message>
@@ -2029,7 +2107,11 @@
         <translation>תשלום של העמלה הנדרשת בלבד על סך %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Invalid Litecoin address</source>
+=======
+        <source>Warning: Invalid Ulucoin address</source>
+>>>>>>> dev
         <translation>אזהרה: כתובת ביטקיון שגויה</translation>
     </message>
     <message>
@@ -2072,7 +2154,11 @@
         <translation>זהו תשלום רגיל.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Litecoin address to send the payment to</source>
+=======
+        <source>The Ulucoin address to send the payment to</source>
+>>>>>>> dev
         <translation>כתובת לייטקוין של המוטב</translation>
     </message>
     <message>
@@ -2092,7 +2178,11 @@
         <translation>הסרת רשומה זו</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+=======
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less ulucoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+>>>>>>> dev
         <translation>העמלה תנוכה מהסכום שנשלח. הנמען יקבל פחות ביטקוינים ממה שהזנת בשדה הסכום. אם נבחרו מספר נמענים, העמלה תחולק באופן שווה.</translation>
     </message>
     <message>
@@ -2112,7 +2202,11 @@
         <translation>יש להזין תווית עבור כתובת זו כדי להוסיף אותה לרשימת הכתובות בשימוש</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+=======
+        <source>A message that was attached to the ulucoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Ulucoin network.</source>
+>>>>>>> dev
         <translation>הודעה שצורפה לייטקוין: כתובת שתאוחסן בהעברה לצורך מעקב מצדך. לתשומת לבך: הודעה זו לא תישלח ברשת לייטקוין.</translation>
     </message>
     <message>
@@ -2153,7 +2247,11 @@
         <translation>חתימה על הו&amp;דעה</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Litecoin address to sign the message with</source>
+=======
+        <source>The Ulucoin address to sign the message with</source>
+>>>>>>> dev
         <translation>כתובת לייטקוין אתה לחתום אתה את ההודעה</translation>
     </message>
     <message>
@@ -2185,7 +2283,11 @@
         <translation>העתקת החתימה הנוכחית ללוח הגזירים</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this Litecoin address</source>
+=======
+        <source>Sign the message to prove you own this Ulucoin address</source>
+>>>>>>> dev
         <translation>ניתן לחתום על ההודעה כדי להוכיח שכתובת לייטקוין הזו בבעלותך.</translation>
     </message>
     <message>
@@ -2205,11 +2307,19 @@
         <translation>&amp;אימות הודעה</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Litecoin address the message was signed with</source>
         <translation>כתובת לייטקוין שאתה נחתמה ההודעה</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
+=======
+        <source>The Ulucoin address the message was signed with</source>
+        <translation>כתובת לייטקוין שאתה נחתמה ההודעה</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Ulucoin address</source>
+>>>>>>> dev
         <translation>ניתן לאמת את ההודעה כדי להבטיח שהיא נחתמה עם כתובת לייטקוין הנתונה</translation>
     </message>
     <message>
@@ -2714,7 +2824,11 @@
         <translation>ריצה כסוכן ברקע וקבלת פקודות</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
+=======
+        <source>Ulucoin Core</source>
+>>>>>>> dev
         <translation>ליבת לייטקוין</translation>
     </message>
     <message>

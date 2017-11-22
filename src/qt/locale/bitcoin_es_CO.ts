@@ -126,8 +126,13 @@
         <translation>Abrir &amp;URL...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Litecoin address</source>
         <translation>Enviando monedas a una dirección de Litecoin</translation>
+=======
+        <source>Send coins to a Ulucoin address</source>
+        <translation>Enviando monedas a una dirección de Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>
@@ -146,8 +151,13 @@
         <translation>&amp;Verificar Mensaje...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Ulucoin</source>
+        <translation>Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Wallet</source>
@@ -296,8 +306,13 @@
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
+=======
+        <source>Ulucoin Core</source>
+        <translation>Ulucoin Core</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Insufficient funds</source>

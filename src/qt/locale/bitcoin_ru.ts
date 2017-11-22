@@ -62,12 +62,21 @@
         <translation>Адреса получения</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Это ваши адреса Litecoin для отправки платежей. Всегда проверяйте сумму и адрес получателя перед отправкой перевода.</translation>
     </message>
     <message>
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Это ваши адреса Litecoin для приёма платежей. Рекомендуется использовать новый адрес получения для каждой транзакции.</translation>
+=======
+        <source>These are your Ulucoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Это ваши адреса Ulucoin для отправки платежей. Всегда проверяйте сумму и адрес получателя перед отправкой перевода.</translation>
+    </message>
+    <message>
+        <source>These are your Ulucoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Это ваши адреса Ulucoin для приёма платежей. Рекомендуется использовать новый адрес получения для каждой транзакции.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -180,7 +189,11 @@
         <translation>Бумажник зашифрован</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+=======
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ulucoins from being stolen by malware infecting your computer.</source>
+>>>>>>> dev
         <translation>Сейчас %1 закроется для завершения процесса шифрования. Помните, что шифрование вашего бумажника не может полностью защитить ваши биткоины от кражи с помощью инфицирования вашего компьютера вредоносным ПО.</translation>
     </message>
     <message>
@@ -338,8 +351,13 @@
         <translation>Идёт переиндексация блоков на диске...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Litecoin address</source>
         <translation>Отправить монеты на указанный адрес Litecoin</translation>
+=======
+        <source>Send coins to a Ulucoin address</source>
+        <translation>Отправить монеты на указанный адрес Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -362,8 +380,13 @@
         <translation>&amp;Проверить сообщение...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Ulucoin</source>
+        <translation>Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Wallet</source>
@@ -390,12 +413,21 @@
         <translation>Зашифровать приватные ключи, принадлежащие вашему бумажнику</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Подписать сообщения вашим адресом Litecoin, чтобы доказать, что вы им владеете</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом Litecoin</translation>
+=======
+        <source>Sign messages with your Ulucoin addresses to prove you own them</source>
+        <translation>Подписать сообщения вашим адресом Ulucoin, чтобы доказать, что вы им владеете</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Ulucoin addresses</source>
+        <translation>Проверить сообщения, чтобы удостовериться, что они были подписаны определённым адресом Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;File</source>
@@ -414,8 +446,13 @@
         <translation>Панель вкладок</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Запросить платежи (создаёт QR-коды и litecoin: ссылки)</translation>
+=======
+        <source>Request payments (generates QR codes and ulucoin: URIs)</source>
+        <translation>Запросить платежи (создаёт QR-коды и ulucoin: ссылки)</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -426,16 +463,26 @@
         <translation>Показать список использованных адресов и меток получения</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open a litecoin: URI or payment request</source>
         <translation>Открыть litecoin: URI или запрос платежа</translation>
+=======
+        <source>Open a ulucoin: URI or payment request</source>
+        <translation>Открыть ulucoin: URI или запрос платежа</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Параметры командной строки</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n активных соединений с сетью Litecoin</numerusform><numerusform>%n активных соединений с сетью Litecoin</numerusform><numerusform>%n активных соединений с сетью Litecoin</numerusform><numerusform>%n активных соединений с сетью Litecoin</numerusform></translation>
+=======
+        <source>%n active connection(s) to Ulucoin network</source>
+        <translation><numerusform>%n активных соединений с сетью Ulucoin</numerusform><numerusform>%n активных соединений с сетью Ulucoin</numerusform><numerusform>%n активных соединений с сетью Ulucoin</numerusform><numerusform>%n активных соединений с сетью Ulucoin</numerusform></translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -478,7 +525,11 @@
         <translation>Синхронизировано</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
+=======
+        <source>Show the %1 help message to get a list with possible Ulucoin command-line options</source>
+>>>>>>> dev
         <translation>Показать помощь по %1, чтобы получить список доступных параметров командной строки</translation>
     </message>
     <message>
@@ -548,8 +599,13 @@
         <translation>Бумажник &lt;b&gt;зашифрован&lt;/b&gt; и в настоящее время &lt;b&gt;заблокирован&lt;/b&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
         <translation>Произошла неисправимая ошибка. Litecoin не может безопасно продолжать работу и будет закрыт.</translation>
+=======
+        <source>A fatal error occurred. Ulucoin can no longer continue safely and will quit.</source>
+        <translation>Произошла неисправимая ошибка. Ulucoin не может безопасно продолжать работу и будет закрыт.</translation>
+>>>>>>> dev
     </message>
 </context>
 <context>
@@ -742,8 +798,13 @@
         <translation>Изменить адрес отправки</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Litecoin address.</source>
         <translation>Введённый адрес "%1" не является правильным Litecoin-адресом.</translation>
+=======
+        <source>The entered address "%1" is not a valid Ulucoin address.</source>
+        <translation>Введённый адрес "%1" не является правильным Ulucoin-адресом.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -851,7 +912,11 @@
         <translation>При первом запуске программы вы можете выбрать где %1 будет хранить свои данные.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 will download and store a copy of the Litecoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+=======
+        <source>%1 will download and store a copy of the Ulucoin block chain. At least %2GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+>>>>>>> dev
         <translation>%1 скачает и сохранит копию цепи блоков. Как минимум %2GB будут записаны в этот каталог, и со временем он будет расти. Бумажник также будет сохранен в этом каталоге.</translation>
     </message>
     <message>
@@ -886,11 +951,19 @@
         <translation>Форма</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
         <translation>Недавние транзакции могут быть пока не видны, поэтому ваш баланс может отображаться некорректно. Эта информация станет корректной, как только ваш бумажник будет синхронизирован с сетью, см. подробности ниже.</translation>
     </message>
     <message>
         <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+=======
+        <source>Recent transactions may not yet be visible, and therefore your wallet's balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the ulucoin network, as detailed below.</source>
+        <translation>Недавние транзакции могут быть пока не видны, поэтому ваш баланс может отображаться некорректно. Эта информация станет корректной, как только ваш бумажник будет синхронизирован с сетью, см. подробности ниже.</translation>
+    </message>
+    <message>
+        <source>Attempting to spend ulucoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+>>>>>>> dev
         <translation>Попытка потратить биткоины из ещё не отображённых транзакций будет отвергнута сетью.</translation>
     </message>
     <message>
@@ -1048,20 +1121,34 @@
         <translation>&amp;Тратить неподтверждённую сдачу</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Автоматически открыть порт для Litecoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+=======
+        <source>Automatically open the Ulucoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматически открыть порт для Ulucoin-клиента на роутере. Работает только если Ваш роутер поддерживает UPnP, и данная функция включена.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Пробросить порт через &amp;UPnP</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
         <translation>Подключаться к сети Litecoin через прокси SOCKS5</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
         <translation>&amp;Подключаться к сети Litecoin через прокси SOCKS5 (прокси по умолчанию):</translation>
+=======
+        <source>Connect to the Ulucoin network through a SOCKS5 proxy.</source>
+        <translation>Подключаться к сети Ulucoin через прокси SOCKS5</translation>
+    </message>
+    <message>
+        <source>&amp;Connect through SOCKS5 proxy (default proxy):</source>
+        <translation>&amp;Подключаться к сети Ulucoin через прокси SOCKS5 (прокси по умолчанию):</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1096,8 +1183,13 @@
         <translation>Tor</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
         <translation>Подключаться к сети Litecoin через прокси SOCKS5 для скрытых сервисов Tor.</translation>
+=======
+        <source>Connect to the Ulucoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+        <translation>Подключаться к сети Ulucoin через прокси SOCKS5 для скрытых сервисов Tor.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</source>
@@ -1195,8 +1287,13 @@
         <translation>Форма</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Litecoin после подключения, но этот процесс пока не завершён.</translation>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ulucoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Отображаемая информация может быть устаревшей. Ваш бумажник автоматически синхронизируется с сетью Ulucoin после подключения, но этот процесс пока не завершён.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Watch-only:</source>
@@ -1270,8 +1367,13 @@
         <translation>Ошибка запроса платежа</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Cannot start litecoin: click-to-pay handler</source>
         <translation>Не удаётся запустить litecoin: обработчик click-to-pay</translation>
+=======
+        <source>Cannot start ulucoin: click-to-pay handler</source>
+        <translation>Не удаётся запустить ulucoin: обработчик click-to-pay</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>URI handling</source>
@@ -1286,8 +1388,13 @@
         <translation>Неверный адрес платежа %1</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
         <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Litecoin или неправильными параметрами URI.</translation>
+=======
+        <source>URI cannot be parsed! This can be caused by an invalid Ulucoin address or malformed URI parameters.</source>
+        <translation>Не удалось обработать URI! Это может быть связано с неверным адресом Ulucoin или неправильными параметрами URI.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Payment request file handling</source>
@@ -1380,8 +1487,13 @@
         <translation>Сумма</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Litecoin address (e.g. %1)</source>
         <translation>Введите адрес Litecoin (например, %1)</translation>
+=======
+        <source>Enter a Ulucoin address (e.g. %1)</source>
+        <translation>Введите адрес Ulucoin (например, %1)</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>%1 d</source>
@@ -1804,8 +1916,13 @@
         <translation>&amp;Повторно использовать существующий адрес получения (не рекомендуется)</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
         <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса. Заметьте: сообщение не будет отправлено вместе с платежом через сеть Litecoin.</translation>
+=======
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Ulucoin network.</source>
+        <translation>Необязательное сообщение для запроса платежа, которое будет показано при открытии запроса. Заметьте: сообщение не будет отправлено вместе с платежом через сеть Ulucoin.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -2037,7 +2154,11 @@
         <translation>Итого как минимум</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+=======
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for ulucoin transactions than the network can process.</source>
+>>>>>>> dev
         <translation>Уплата минимальной комиссии — не проблема, пока объём транзакций меньше, чем свободное место в блоках. Учтите, однако, что такая транзакция может никогда не подтвердиться, если спрос на транзакции превышает возможности сети по их обработке.</translation>
     </message>
     <message>
@@ -2201,8 +2322,13 @@
         <translation><numerusform>Начало подтверждения ожидается через %n блок.</numerusform><numerusform>Начало подтверждения ожидается через %n блока.</numerusform><numerusform>Начало подтверждения ожидается через %n блоков.</numerusform><numerusform>Начало подтверждения ожидается через %n блоков.</numerusform></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Invalid Litecoin address</source>
         <translation>Внимание: неверный адрес Litecoin</translation>
+=======
+        <source>Warning: Invalid Ulucoin address</source>
+        <translation>Внимание: неверный адрес Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Warning: Unknown change address</source>
@@ -2244,8 +2370,13 @@
         <translation>Это нормальный платёж.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Litecoin address to send the payment to</source>
         <translation>Адрес Litecoin, на который отправить платёж</translation>
+=======
+        <source>The Ulucoin address to send the payment to</source>
+        <translation>Адрес Ulucoin, на который отправить платёж</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Alt+A</source>
@@ -2264,7 +2395,11 @@
         <translation>Удалить эту запись</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+=======
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less ulucoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+>>>>>>> dev
         <translation>С отправляемой суммы будет удержана комиссия. Получателю придёт меньше биткоинов, чем вы вводите в поле количества. Если выбрано несколько получателей, комиссия распределяется поровну.</translation>
     </message>
     <message>
@@ -2288,8 +2423,13 @@
         <translation>Введите метку для этого адреса, чтобы добавить его в список использованных</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
         <translation>К litecoin: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Заметьте: сообщение не будет отправлено через сеть Litecoin.</translation>
+=======
+        <source>A message that was attached to the ulucoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Ulucoin network.</source>
+        <translation>К ulucoin: URI было прикреплено сообщение, которое будет сохранено вместе с транзакцией для вашего сведения. Заметьте: сообщение не будет отправлено через сеть Ulucoin.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Pay To:</source>
@@ -2333,12 +2473,21 @@
         <translation>&amp;Подписать сообщение</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
         <translation>Вы можете подписывать сообщения/соглашения своими адресами, чтобы доказать свою возможность получать биткоины на них. Будьте осторожны, не подписывайте что-то неопределённое или случайное, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
     </message>
     <message>
         <source>The Litecoin address to sign the message with</source>
         <translation>Адрес Litecoin, которым подписать сообщение</translation>
+=======
+        <source>You can sign messages/agreements with your addresses to prove you can receive ulucoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+        <translation>Вы можете подписывать сообщения/соглашения своими адресами, чтобы доказать свою возможность получать биткоины на них. Будьте осторожны, не подписывайте что-то неопределённое или случайное, так как фишинговые атаки могут обманным путём заставить вас подписать нежелательные сообщения. Подписывайте только те сообщения, с которыми вы согласны вплоть до мелочей.</translation>
+    </message>
+    <message>
+        <source>The Ulucoin address to sign the message with</source>
+        <translation>Адрес Ulucoin, которым подписать сообщение</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2369,8 +2518,13 @@
         <translation>Скопировать текущую подпись в системный буфер обмена</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Подписать сообщение, чтобы доказать владение адресом Litecoin</translation>
+=======
+        <source>Sign the message to prove you own this Ulucoin address</source>
+        <translation>Подписать сообщение, чтобы доказать владение адресом Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2393,12 +2547,21 @@
         <translation>Введите ниже адрес получателя, сообщение (убедитесь, что переводы строк, пробелы, табы и т.п. в точности скопированы) и подпись, чтобы проверить сообщение. Убедитесь, что не скопировали лишнего в подпись, по сравнению с самим подписываемым сообщением, чтобы не стать жертвой атаки "man-in-the-middle". Заметьте, что эта операция удостоверяет лишь авторство подписавшего, но не может удостоверить отправителя транзакции.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Litecoin address the message was signed with</source>
         <translation>Адрес Litecoin, которым было подписано сообщение</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Litecoin</translation>
+=======
+        <source>The Ulucoin address the message was signed with</source>
+        <translation>Адрес Ulucoin, которым было подписано сообщение</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Ulucoin address</source>
+        <translation>Проверить сообщение, чтобы убедиться, что оно было подписано указанным адресом Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -3058,8 +3221,13 @@
         <translation>Невозможно запустить HTTP сервер. Смотри debug лог для подробностей.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
+=======
+        <source>Ulucoin Core</source>
+        <translation>Ulucoin Core</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>The %s developers</source>

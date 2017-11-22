@@ -39,7 +39,11 @@ unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHead
     }
 
     // Go back by what we want to be 14 days worth of blocks
+<<<<<<< HEAD
     // Litecoin: This fixes an issue where a 51% attack can change difficulty at will.
+=======
+    // Ulucoin: This fixes an issue where a 51% attack can change difficulty at will.
+>>>>>>> dev
     // Go back the full period unless it's the first retarget after genesis. Code courtesy of Art Forz
     int blockstogoback = params.DifficultyAdjustmentInterval()-1;
     if ((pindexLast->nHeight+1) != params.DifficultyAdjustmentInterval())
@@ -72,7 +76,11 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
     arith_uint256 bnOld;
     bnNew.SetCompact(pindexLast->nBits);
     bnOld = bnNew;
+<<<<<<< HEAD
     // Litecoin: intermediate uint256 can overflow by 1 bit
+=======
+    // Ulucoin: intermediate uint256 can overflow by 1 bit
+>>>>>>> dev
     const arith_uint256 bnPowLimit = UintToArith256(params.powLimit);
     bool fShift = bnNew.bits() > bnPowLimit.bits() - 1;
     if (fShift)

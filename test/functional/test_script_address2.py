@@ -4,7 +4,11 @@
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
 #
+<<<<<<< HEAD
 # Test new Litecoin multisig prefix functionality.
+=======
+# Test new Ulucoin multisig prefix functionality.
+>>>>>>> dev
 #
 
 from test_framework.test_framework import BitcoinTestFramework

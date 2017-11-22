@@ -58,12 +58,21 @@
         <translation>Adresa na koju se prima</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Ovo su Vaše Litecoin adrese na koju se vrše uplate. Uvek proverite iznos i prijemnu adresu pre slanja novčića</translation>
     </message>
     <message>
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Ovo su Vaše Litecoin adrese za primanje uplata. Preporučuje se upotreba nove adrese za svaku transakciju.</translation>
+=======
+        <source>These are your Ulucoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ovo su Vaše Ulucoin adrese na koju se vrše uplate. Uvek proverite iznos i prijemnu adresu pre slanja novčića</translation>
+    </message>
+    <message>
+        <source>These are your Ulucoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ovo su Vaše Ulucoin adrese za primanje uplata. Preporučuje se upotreba nove adrese za svaku transakciju.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -198,16 +207,26 @@
         <translation>Otvori &amp;URI...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Litecoin address</source>
         <translation>Pošalji novčiće na Litecoin adresu</translation>
+=======
+        <source>Send coins to a Ulucoin address</source>
+        <translation>Pošalji novčiće na Ulucoin adresu</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;Verify message...</source>
         <translation>&amp;Proveri poruku...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Ulucoin</source>
+        <translation>Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Wallet</source>
@@ -446,8 +465,13 @@
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
+=======
+        <source>Ulucoin Core</source>
+        <translation>Ulucoin Core</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Information</source>

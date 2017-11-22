@@ -146,8 +146,13 @@
         <translation>Дискдаги блоклар қайта индексланмоқда...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Litecoin address</source>
         <translation>Тангаларни Litecoin манзилига жўнатиш</translation>
+=======
+        <source>Send coins to a Ulucoin address</source>
+        <translation>Тангаларни Ulucoin манзилига жўнатиш</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -170,8 +175,13 @@
         <translation>Хабарни &amp;тасдиқлаш...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Ulucoin</source>
+        <translation>Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Wallet</source>
@@ -198,12 +208,21 @@
         <translation>Ҳамёнингизга тегишли махфий калитларни кодлаш</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Litecoin манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Хабарларни махсус Litecoin манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
+=======
+        <source>Sign messages with your Ulucoin addresses to prove you own them</source>
+        <translation>Ulucoin манзилидан унинг эгаси эканлигингизни исботлаш учун хабарлар ёзинг</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Ulucoin addresses</source>
+        <translation>Хабарларни махсус Ulucoin манзилларингиз билан ёзилганлигига ишонч ҳосил қилиш учун уларни тасдиқланг</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;File</source>
@@ -222,8 +241,13 @@
         <translation>Ички ойналар асбоблар панели</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Тўловлар (QR кодлари ва litecoin ёрдамида яратишлар: URI’лар) сўраш</translation>
+=======
+        <source>Request payments (generates QR codes and ulucoin: URIs)</source>
+        <translation>Тўловлар (QR кодлари ва ulucoin ёрдамида яратишлар: URI’лар) сўраш</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -234,16 +258,26 @@
         <translation>Фойдаланилган қабул қилинган манзиллар ва ёрлиқлар рўйхатини кўрсатиш</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open a litecoin: URI or payment request</source>
         <translation>Litecoin’ни очиш: URI ёки тўлов сўрови</translation>
+=======
+        <source>Open a ulucoin: URI or payment request</source>
+        <translation>Ulucoin’ни очиш: URI ёки тўлов сўрови</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Буйруқлар сатри мосламалари</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n та Litecoin тармоғига фаол уланиш мавжуд</numerusform></translation>
+=======
+        <source>%n active connection(s) to Ulucoin network</source>
+        <translation><numerusform>%n та Ulucoin тармоғига фаол уланиш мавжуд</numerusform></translation>
+>>>>>>> dev
     </message>
     <message>
         <source>%1 behind</source>
@@ -601,8 +635,13 @@
         <translation>Шакл</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Litecoin тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ulucoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Кўрсатилган маълумот эскирган бўлиши мумкин. Ҳамёнингиз алоқа ўрнатилгандан сўнг Ulucoin тармоқ билан автоматик тарзда синхронланади, аммо жараён ҳалигача тугалланмади.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Watch-only:</source>
@@ -682,8 +721,13 @@
         <translation>Миқдори</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Litecoin address (e.g. %1)</source>
         <translation>Litecoin манзилини киритинг (масалан.  %1)</translation>
+=======
+        <source>Enter a Ulucoin address (e.g. %1)</source>
+        <translation>Ulucoin манзилини киритинг (масалан.  %1)</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>%1 m</source>
@@ -1208,8 +1252,13 @@
         <translation>Демон сифатида орқа фонда ишга туширинг ва буйруқларга рози бўлинг</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
+=======
+        <source>Ulucoin Core</source>
+        <translation>Ulucoin Core</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Connection options:</source>

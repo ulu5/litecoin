@@ -195,7 +195,11 @@ class RawTransactionsTest(BitcoinTestFramework):
         dec_tx  = self.nodes[2].decoderawtransaction(rawtx)
         assert_equal(utx['txid'], dec_tx['vin'][0]['txid'])
 
+<<<<<<< HEAD
         assert_raises_jsonrpc(-5, "changeAddress must be a valid litecoin address", self.nodes[2].fundrawtransaction, rawtx, {'changeAddress':'foobar'})
+=======
+        assert_raises_jsonrpc(-5, "changeAddress must be a valid ulucoin address", self.nodes[2].fundrawtransaction, rawtx, {'changeAddress':'foobar'})
+>>>>>>> dev
 
         ############################################################
         # test a fundrawtransaction with a provided change address #

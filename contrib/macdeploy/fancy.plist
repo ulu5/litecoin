@@ -22,7 +22,11 @@
 			<integer>370</integer>
 			<integer>156</integer>
 		</array>
+<<<<<<< HEAD
 		<key>Litecoin-Qt.app</key>
+=======
+		<key>Ulucoin-Qt.app</key>
+>>>>>>> dev
 		<array>
 			<integer>128</integer>
 			<integer>156</integer>

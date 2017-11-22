@@ -80,12 +80,20 @@
     </message>
     <message>
         <location line="+7"/>
+<<<<<<< HEAD
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+=======
+        <source>These are your Ulucoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+4"/>
+<<<<<<< HEAD
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+=======
+        <source>These are your Ulucoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -227,7 +235,11 @@
     </message>
     <message>
         <location line="-56"/>
+<<<<<<< HEAD
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+=======
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ulucoins from being stolen by malware infecting your computer.</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -430,8 +442,13 @@
     </message>
     <message>
         <location line="-510"/>
+<<<<<<< HEAD
         <source>Send coins to a Litecoin address</source>
         <translation>Send coins to a Litecoin address</translation>
+=======
+        <source>Send coins to a Ulucoin address</source>
+        <translation>Send coins to a Ulucoin address</translation>
+>>>>>>> dev
     </message>
     <message>
         <location line="+67"/>
@@ -460,8 +477,13 @@
     </message>
     <message>
         <location line="+516"/>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Ulucoin</source>
+        <translation>Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <location line="-741"/>
@@ -495,6 +517,7 @@
     </message>
     <message>
         <location line="+7"/>
+<<<<<<< HEAD
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Sign messages with your Litecoin addresses to prove you own them</translation>
     </message>
@@ -502,6 +525,15 @@
         <location line="+2"/>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Verify messages to ensure they were signed with specified Litecoin addresses</translation>
+=======
+        <source>Sign messages with your Ulucoin addresses to prove you own them</source>
+        <translation>Sign messages with your Ulucoin addresses to prove you own them</translation>
+    </message>
+    <message>
+        <location line="+2"/>
+        <source>Verify messages to ensure they were signed with specified Ulucoin addresses</source>
+        <translation>Verify messages to ensure they were signed with specified Ulucoin addresses</translation>
+>>>>>>> dev
     </message>
     <message>
         <location line="+58"/>
@@ -525,7 +557,11 @@
     </message>
     <message>
         <location line="-158"/>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
+=======
+        <source>Request payments (generates QR codes and ulucoin: URIs)</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -540,7 +576,11 @@
     </message>
     <message>
         <location line="+3"/>
+<<<<<<< HEAD
         <source>Open a litecoin: URI or payment request</source>
+=======
+        <source>Open a ulucoin: URI or payment request</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -550,10 +590,17 @@
     </message>
     <message numerus="yes">
         <location line="+356"/>
+<<<<<<< HEAD
         <source>%n active connection(s) to Litecoin network</source>
         <translation>
             <numerusform>%n active connection to Litecoin network</numerusform>
             <numerusform>%n active connections to Litecoin network</numerusform>
+=======
+        <source>%n active connection(s) to Ulucoin network</source>
+        <translation>
+            <numerusform>%n active connection to Ulucoin network</numerusform>
+            <numerusform>%n active connections to Ulucoin network</numerusform>
+>>>>>>> dev
         </translation>
     </message>
     <message>
@@ -611,7 +658,11 @@
     </message>
     <message>
         <location line="-440"/>
+<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
+=======
+        <source>Show the %1 help message to get a list with possible Ulucoin command-line options</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -691,7 +742,11 @@
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+534"/>
+<<<<<<< HEAD
         <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
+=======
+        <source>A fatal error occurred. Ulucoin can no longer continue safely and will quit.</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -934,7 +989,11 @@
     </message>
     <message>
         <location line="+71"/>
+<<<<<<< HEAD
         <source>The entered address &quot;%1&quot; is not a valid Litecoin address.</source>
+=======
+        <source>The entered address &quot;%1&quot; is not a valid Ulucoin address.</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1094,8 +1153,13 @@
     </message>
     <message>
         <location filename="../intro.cpp" line="+20"/>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation type="unfinished">Litecoin</translation>
+=======
+        <source>Ulucoin</source>
+        <translation type="unfinished">Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <location line="+6"/>
@@ -1109,7 +1173,11 @@
     </message>
     <message>
         <location line="+8"/>
+<<<<<<< HEAD
         <source>%1 will download and store a copy of the Litecoin block chain.</source>
+=======
+        <source>%1 will download and store a copy of the Ulucoin block chain.</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1153,12 +1221,20 @@
     </message>
     <message>
         <location line="+119"/>
+<<<<<<< HEAD
         <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the litecoin network, as detailed below.</source>
+=======
+        <source>Recent transactions may not yet be visible, and therefore your wallet&apos;s balance might be incorrect. This information will be correct once your wallet has finished synchronizing with the ulucoin network, as detailed below.</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+19"/>
+<<<<<<< HEAD
         <source>Attempting to spend litecoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+=======
+        <source>Attempting to spend ulucoins that are affected by not-yet-displayed transactions will not be accepted by the network.</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1376,8 +1452,13 @@
     </message>
     <message>
         <location line="+30"/>
+<<<<<<< HEAD
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+=======
+        <source>Automatically open the Ulucoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatically open the Ulucoin client port on the router. This only works when your router supports UPnP and it is enabled.</translation>
+>>>>>>> dev
     </message>
     <message>
         <location line="+3"/>
@@ -1386,7 +1467,11 @@
     </message>
     <message>
         <location line="+17"/>
+<<<<<<< HEAD
         <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
+=======
+        <source>Connect to the Ulucoin network through a SOCKS5 proxy.</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1434,7 +1519,11 @@
     </message>
     <message>
         <location line="+25"/>
+<<<<<<< HEAD
         <source>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+=======
+        <source>Connect to the Ulucoin network through a separate SOCKS5 proxy for Tor hidden services.</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1579,8 +1668,13 @@
     <message>
         <location line="+62"/>
         <location line="+386"/>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
         <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</translation>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ulucoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>The displayed information may be out of date. Your wallet automatically synchronizes with the Ulucoin network after a connection is established, but this process has not completed yet.</translation>
+>>>>>>> dev
     </message>
     <message>
         <location line="-139"/>
@@ -1677,7 +1771,11 @@
     </message>
     <message>
         <location line="-402"/>
+<<<<<<< HEAD
         <source>Cannot start litecoin: click-to-pay handler</source>
+=======
+        <source>Cannot start ulucoin: click-to-pay handler</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1699,7 +1797,11 @@
     </message>
     <message>
         <location line="+8"/>
+<<<<<<< HEAD
         <source>URI cannot be parsed! This can be caused by an invalid Litecoin address or malformed URI parameters.</source>
+=======
+        <source>URI cannot be parsed! This can be caused by an invalid Ulucoin address or malformed URI parameters.</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1821,7 +1923,11 @@
     </message>
     <message>
         <location filename="../guiutil.cpp" line="+130"/>
+<<<<<<< HEAD
         <source>Enter a Litecoin address (e.g. %1)</source>
+=======
+        <source>Enter a Ulucoin address (e.g. %1)</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2407,7 +2513,11 @@
     <message>
         <location line="+14"/>
         <location line="+23"/>
+<<<<<<< HEAD
         <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Litecoin network.</source>
+=======
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Ulucoin network.</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2705,7 +2815,11 @@
     <message>
         <location line="+84"/>
         <location line="+13"/>
+<<<<<<< HEAD
         <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+=======
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for ulucoin transactions than the network can process.</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2921,7 +3035,11 @@
     </message>
     <message>
         <location line="+101"/>
+<<<<<<< HEAD
         <source>Warning: Invalid Litecoin address</source>
+=======
+        <source>Warning: Invalid Ulucoin address</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2976,7 +3094,11 @@
     </message>
     <message>
         <location line="+39"/>
+<<<<<<< HEAD
         <source>The Litecoin address to send the payment to</source>
+=======
+        <source>The Ulucoin address to send the payment to</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3003,7 +3125,11 @@
     </message>
     <message>
         <location line="-1021"/>
+<<<<<<< HEAD
         <source>The fee will be deducted from the amount being sent. The recipient will receive less litecoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+=======
+        <source>The fee will be deducted from the amount being sent. The recipient will receive less ulucoins than you enter in the amount field. If multiple recipients are selected, the fee is split equally.</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3033,7 +3159,11 @@
     </message>
     <message>
         <location line="+47"/>
+<<<<<<< HEAD
         <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+=======
+        <source>A message that was attached to the ulucoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Ulucoin network.</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3090,12 +3220,20 @@
     </message>
     <message>
         <location line="+6"/>
+<<<<<<< HEAD
         <source>You can sign messages/agreements with your addresses to prove you can receive litecoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+=======
+        <source>You can sign messages/agreements with your addresses to prove you can receive ulucoins sent to them. Be careful not to sign anything vague or random, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+18"/>
+<<<<<<< HEAD
         <source>The Litecoin address to sign the message with</source>
+=======
+        <source>The Ulucoin address to sign the message with</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3137,8 +3275,13 @@
     </message>
     <message>
         <location line="+21"/>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Sign the message to prove you own this Litecoin address</translation>
+=======
+        <source>Sign the message to prove you own this Ulucoin address</source>
+        <translation>Sign the message to prove you own this Ulucoin address</translation>
+>>>>>>> dev
     </message>
     <message>
         <location line="+3"/>
@@ -3168,13 +3311,22 @@
     </message>
     <message>
         <location line="+21"/>
+<<<<<<< HEAD
         <source>The Litecoin address the message was signed with</source>
+=======
+        <source>The Ulucoin address the message was signed with</source>
+>>>>>>> dev
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+37"/>
+<<<<<<< HEAD
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>Verify the message to ensure it was signed with the specified Litecoin address</translation>
+=======
+        <source>Verify the message to ensure it was signed with the specified Ulucoin address</source>
+        <translation>Verify the message to ensure it was signed with the specified Ulucoin address</translation>
+>>>>>>> dev
     </message>
     <message>
         <location line="+3"/>
@@ -4066,8 +4218,13 @@
     </message>
     <message>
         <location line="-384"/>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation type="unfinished">Litecoin Core</translation>
+=======
+        <source>Ulucoin Core</source>
+        <translation type="unfinished">Ulucoin Core</translation>
+>>>>>>> dev
     </message>
     <message>
         <location line="+1"/>

@@ -108,11 +108,19 @@ class BitcoinTestFramework(object):
 
         parser = optparse.OptionParser(usage="%prog [options]")
         parser.add_option("--nocleanup", dest="nocleanup", default=False, action="store_true",
+<<<<<<< HEAD
                           help="Leave litecoinds and test.* datadir on exit or error")
         parser.add_option("--noshutdown", dest="noshutdown", default=False, action="store_true",
                           help="Don't stop litecoinds after the test execution")
         parser.add_option("--srcdir", dest="srcdir", default=os.path.normpath(os.path.dirname(os.path.realpath(__file__)) + "/../../../src"),
                           help="Source directory containing litecoind/litecoin-cli (default: %default)")
+=======
+                          help="Leave ulucoinds and test.* datadir on exit or error")
+        parser.add_option("--noshutdown", dest="noshutdown", default=False, action="store_true",
+                          help="Don't stop ulucoinds after the test execution")
+        parser.add_option("--srcdir", dest="srcdir", default=os.path.normpath(os.path.dirname(os.path.realpath(__file__)) + "/../../../src"),
+                          help="Source directory containing ulucoind/ulucoin-cli (default: %default)")
+>>>>>>> dev
         parser.add_option("--cachedir", dest="cachedir", default=os.path.normpath(os.path.dirname(os.path.realpath(__file__)) + "/../../cache"),
                           help="Directory for caching pregenerated datadirs")
         parser.add_option("--tmpdir", dest="tmpdir", help="Root directory for datadirs")
@@ -174,7 +182,11 @@ class BitcoinTestFramework(object):
             if self.nodes:
                 self.stop_nodes()
         else:
+<<<<<<< HEAD
             self.log.info("Note: litecoinds were not stopped and may still be running")
+=======
+            self.log.info("Note: ulucoinds were not stopped and may still be running")
+>>>>>>> dev
 
         if not self.options.nocleanup and not self.options.noshutdown and success != TestStatus.FAILED:
             self.log.info("Cleaning up")
@@ -215,12 +227,20 @@ class BitcoinTestFramework(object):
 
         datadir = os.path.join(dirname, "node" + str(i))
         if binary is None:
+<<<<<<< HEAD
             binary = os.getenv("LITECOIND", "litecoind")
+=======
+            binary = os.getenv("LITECOIND", "ulucoind")
+>>>>>>> dev
         args = [binary, "-datadir=" + datadir, "-server", "-keypool=1", "-discover=0", "-rest", "-logtimemicros", "-debug", "-debugexclude=libevent", "-debugexclude=leveldb", "-mocktime=" + str(self.mocktime), "-uacomment=testnode%d" % i]
         if extra_args is not None:
             args.extend(extra_args)
         self.bitcoind_processes[i] = subprocess.Popen(args, stderr=stderr)
+<<<<<<< HEAD
         self.log.debug("initialize_chain: litecoind started, waiting for RPC to come up")
+=======
+        self.log.debug("initialize_chain: ulucoind started, waiting for RPC to come up")
+>>>>>>> dev
         self._wait_for_bitcoind_start(self.bitcoind_processes[i], datadir, i, rpchost)
         self.log.debug("initialize_chain: RPC successfully started")
         proxy = get_rpc_proxy(rpc_url(datadir, i, rpchost), i, timeout=timewait)
@@ -278,7 +298,11 @@ class BitcoinTestFramework(object):
                 self.start_node(i, dirname, extra_args, stderr=log_stderr)
                 self.stop_node(i)
             except Exception as e:
+<<<<<<< HEAD
                 assert 'litecoind exited' in str(e)  # node must have shutdown
+=======
+                assert 'ulucoind exited' in str(e)  # node must have shutdown
+>>>>>>> dev
                 if expected_msg is not None:
                     log_stderr.seek(0)
                     stderr = log_stderr.read().decode('utf-8')
@@ -286,9 +310,15 @@ class BitcoinTestFramework(object):
                         raise AssertionError("Expected error \"" + expected_msg + "\" not found in:\n" + stderr)
             else:
                 if expected_msg is None:
+<<<<<<< HEAD
                     assert_msg = "litecoind should have exited with an error"
                 else:
                     assert_msg = "litecoind should have exited with expected error " + expected_msg
+=======
+                    assert_msg = "ulucoind should have exited with an error"
+                else:
+                    assert_msg = "ulucoind should have exited with expected error " + expected_msg
+>>>>>>> dev
                 raise AssertionError(assert_msg)
 
     def wait_for_node_exit(self, i, timeout):
@@ -386,11 +416,19 @@ class BitcoinTestFramework(object):
             # Create cache directories, run bitcoinds:
             for i in range(MAX_NODES):
                 datadir = initialize_datadir(cachedir, i)
+<<<<<<< HEAD
                 args = [os.getenv("LITECOIND", "litecoind"), "-server", "-keypool=1", "-datadir=" + datadir, "-discover=0"]
                 if i > 0:
                     args.append("-connect=127.0.0.1:" + str(p2p_port(0)))
                 self.bitcoind_processes[i] = subprocess.Popen(args)
                 self.log.debug("initialize_chain: litecoind started, waiting for RPC to come up")
+=======
+                args = [os.getenv("LITECOIND", "ulucoind"), "-server", "-keypool=1", "-datadir=" + datadir, "-discover=0"]
+                if i > 0:
+                    args.append("-connect=127.0.0.1:" + str(p2p_port(0)))
+                self.bitcoind_processes[i] = subprocess.Popen(args)
+                self.log.debug("initialize_chain: ulucoind started, waiting for RPC to come up")
+>>>>>>> dev
                 self._wait_for_bitcoind_start(self.bitcoind_processes[i], datadir, i)
                 self.log.debug("initialize_chain: RPC successfully started")
 
@@ -452,7 +490,11 @@ class BitcoinTestFramework(object):
         Raise an exception if bitcoind exits during initialization."""
         while True:
             if process.poll() is not None:
+<<<<<<< HEAD
                 raise Exception('litecoind exited with status %i during initialization' % process.returncode)
+=======
+                raise Exception('ulucoind exited with status %i during initialization' % process.returncode)
+>>>>>>> dev
             try:
                 # Check if .cookie file to be created
                 rpc = get_rpc_proxy(rpc_url(datadir, i, rpchost), i, coveragedir=self.options.coveragedir)
@@ -484,11 +526,19 @@ class ComparisonTestFramework(BitcoinTestFramework):
 
     def add_options(self, parser):
         parser.add_option("--testbinary", dest="testbinary",
+<<<<<<< HEAD
                           default=os.getenv("LITECOIND", "litecoind"),
                           help="litecoind binary to test")
         parser.add_option("--refbinary", dest="refbinary",
                           default=os.getenv("LITECOIND", "litecoind"),
                           help="litecoind binary to use for reference nodes (if any)")
+=======
+                          default=os.getenv("LITECOIND", "ulucoind"),
+                          help="ulucoind binary to test")
+        parser.add_option("--refbinary", dest="refbinary",
+                          default=os.getenv("LITECOIND", "ulucoind"),
+                          help="ulucoind binary to use for reference nodes (if any)")
+>>>>>>> dev
 
     def setup_network(self):
         extra_args = [['-whitelist=127.0.0.1']]*self.num_nodes

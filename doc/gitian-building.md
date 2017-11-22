@@ -1,9 +1,15 @@
 Gitian building
 ================
 
+<<<<<<< HEAD
 *Setup instructions for a Gitian build of Litecoin Core using a Debian VM or physical system.*
 
 Gitian is the deterministic build process that is used to build the Litecoin
+=======
+*Setup instructions for a Gitian build of Ulucoin Core using a Debian VM or physical system.*
+
+Gitian is the deterministic build process that is used to build the Ulucoin
+>>>>>>> dev
 Core executables. It provides a way to be reasonably sure that the
 executables are really built from the source on GitHub. It also makes sure that
 the same, tested dependencies are used and statically built into the executable.
@@ -11,7 +17,11 @@ the same, tested dependencies are used and statically built into the executable.
 Multiple developers build the source code by following a specific descriptor
 ("recipe"), cryptographically sign the result, and upload the resulting signature.
 These results are compared and only if they match, the build is accepted and uploaded
+<<<<<<< HEAD
 to litecoin.org.
+=======
+to ulucoin.org.
+>>>>>>> dev
 
 More independent Gitian builders are needed, which is why this guide exists.
 It is preferred you follow these steps yourself instead of using someone else's
@@ -26,7 +36,11 @@ Table of Contents
 - [Installing Gitian](#installing-gitian)
 - [Setting up the Gitian image](#setting-up-the-gitian-image)
 - [Getting and building the inputs](#getting-and-building-the-inputs)
+<<<<<<< HEAD
 - [Building Litecoin Core](#building-litecoin-core)
+=======
+- [Building Ulucoin Core](#building-ulucoin-core)
+>>>>>>> dev
 - [Building an alternative repository](#building-an-alternative-repository)
 - [Signing externally](#signing-externally)
 - [Uploading signatures](#uploading-signatures)
@@ -310,12 +324,21 @@ cd ..
 
 **Note**: When sudo asks for a password, enter the password for the user *debian* not for *root*.
 
+<<<<<<< HEAD
 Clone the git repositories for litecoin and Gitian.
 
 ```bash
 git clone https://github.com/devrandom/gitian-builder.git
 git clone https://github.com/litecoin-project/litecoin
 git clone https://github.com/litecoin-project/gitian.sigs.ltc.git
+=======
+Clone the git repositories for ulucoin and Gitian.
+
+```bash
+git clone https://github.com/devrandom/gitian-builder.git
+git clone https://github.com/ulucoin-project/ulucoin
+git clone https://github.com/ulucoin-project/gitian.sigs.ltc.git
+>>>>>>> dev
 ```
 
 Setting up the Gitian image
@@ -344,16 +367,28 @@ Getting and building the inputs
 At this point you have two options, you can either use the automated script (found in [contrib/gitian-build.sh](/contrib/gitian-build.sh)) or you could manually do everything by following this guide. If you're using the automated script, then run it with the "--setup" command. Afterwards, run it with the "--build" command (example: "contrib/gitian-build.sh -b signer 0.13.0"). Otherwise ignore this.
 
 Follow the instructions in [doc/release-process.md](release-process.md#fetch-and-create-inputs-first-time-or-when-dependency-versions-change)
+<<<<<<< HEAD
 in the litecoin repository under 'Fetch and create inputs' to install sources which require
+=======
+in the ulucoin repository under 'Fetch and create inputs' to install sources which require
+>>>>>>> dev
 manual intervention. Also optionally follow the next step: 'Seed the Gitian sources cache
 and offline git repositories' which will fetch the remaining files required for building
 offline.
 
+<<<<<<< HEAD
 Building Litecoin Core
 ----------------
 
 To build Litecoin Core (for Linux, OS X and Windows) just follow the steps under 'perform
 Gitian builds' in [doc/release-process.md](release-process.md#perform-gitian-builds) in the litecoin repository.
+=======
+Building Ulucoin Core
+----------------
+
+To build Ulucoin Core (for Linux, OS X and Windows) just follow the steps under 'perform
+Gitian builds' in [doc/release-process.md](release-process.md#perform-gitian-builds) in the ulucoin repository.
+>>>>>>> dev
 
 This may take some time as it will build all the dependencies needed for each descriptor.
 These dependencies will be cached after a successful build to avoid rebuilding them when possible.
@@ -367,12 +402,20 @@ tail -f var/build.log
 
 Output from `gbuild` will look something like
 
+<<<<<<< HEAD
     Initialized empty Git repository in /home/debian/gitian-builder/inputs/litecoin/.git/
+=======
+    Initialized empty Git repository in /home/debian/gitian-builder/inputs/ulucoin/.git/
+>>>>>>> dev
     remote: Counting objects: 57959, done.
     remote: Total 57959 (delta 0), reused 0 (delta 0), pack-reused 57958
     Receiving objects: 100% (57959/57959), 53.76 MiB | 484.00 KiB/s, done.
     Resolving deltas: 100% (41590/41590), done.
+<<<<<<< HEAD
     From https://github.com/litecoin-project/litecoin
+=======
+    From https://github.com/ulucoin-project/ulucoin
+>>>>>>> dev
     ... (new tags, new branch etc)
     --- Building for trusty amd64 ---
     Stopping target if it is up
@@ -398,18 +441,30 @@ and inputs.
 
 For example:
 ```bash
+<<<<<<< HEAD
 URL=https://github.com/thrasher-/litecoin.git
 COMMIT=2014_03_windows_unicode_path
 ./bin/gbuild --commit litecoin=${COMMIT} --url litecoin=${URL} ../litecoin/contrib/gitian-descriptors/gitian-linux.yml
 ./bin/gbuild --commit litecoin=${COMMIT} --url litecoin=${URL} ../litecoin/contrib/gitian-descriptors/gitian-win.yml
 ./bin/gbuild --commit litecoin=${COMMIT} --url litecoin=${URL} ../litecoin/contrib/gitian-descriptors/gitian-osx.yml
+=======
+URL=https://github.com/thrasher-/ulucoin.git
+COMMIT=2014_03_windows_unicode_path
+./bin/gbuild --commit ulucoin=${COMMIT} --url ulucoin=${URL} ../ulucoin/contrib/gitian-descriptors/gitian-linux.yml
+./bin/gbuild --commit ulucoin=${COMMIT} --url ulucoin=${URL} ../ulucoin/contrib/gitian-descriptors/gitian-win.yml
+./bin/gbuild --commit ulucoin=${COMMIT} --url ulucoin=${URL} ../ulucoin/contrib/gitian-descriptors/gitian-osx.yml
+>>>>>>> dev
 ```
 
 Building fully offline
 -----------------------
 
 For building fully offline including attaching signatures to unsigned builds, the detached-sigs repository
+<<<<<<< HEAD
 and the litecoin git repository with the desired tag must both be available locally, and then gbuild must be
+=======
+and the ulucoin git repository with the desired tag must both be available locally, and then gbuild must be
+>>>>>>> dev
 told where to find them. It also requires an apt-cacher-ng which is fully-populated but set to offline mode, or
 manually disabling gitian-builder's use of apt-get to update the VM build environment.
 
@@ -428,7 +483,11 @@ cd /path/to/gitian-builder
 LXC_ARCH=amd64 LXC_SUITE=trusty on-target -u root apt-get update
 LXC_ARCH=amd64 LXC_SUITE=trusty on-target -u root \
   -e DEBIAN_FRONTEND=noninteractive apt-get --no-install-recommends -y install \
+<<<<<<< HEAD
   $( sed -ne '/^packages:/,/[^-] .*/ {/^- .*/{s/"//g;s/- //;p}}' ../litecoin/contrib/gitian-descriptors/*|sort|uniq )
+=======
+  $( sed -ne '/^packages:/,/[^-] .*/ {/^- .*/{s/"//g;s/- //;p}}' ../ulucoin/contrib/gitian-descriptors/*|sort|uniq )
+>>>>>>> dev
 LXC_ARCH=amd64 LXC_SUITE=trusty on-target -u root apt-get -q -y purge grub
 LXC_ARCH=amd64 LXC_SUITE=trusty on-target -u root -e DEBIAN_FRONTEND=noninteractive apt-get -y dist-upgrade
 ```
@@ -448,12 +507,21 @@ Then when building, override the remote URLs that gbuild would otherwise pull fr
 ```bash
 
 cd /some/root/path/
+<<<<<<< HEAD
 git clone https://github.com/litecoin-project/litecoin-detached-sigs.git
 
 BTCPATH=/some/root/path/litecoin
 SIGPATH=/some/root/path/litecoin-detached-sigs
 
 ./bin/gbuild --url litecoin=${BTCPATH},signature=${SIGPATH} ../litecoin/contrib/gitian-descriptors/gitian-win-signer.yml
+=======
+git clone https://github.com/ulucoin-project/ulucoin-detached-sigs.git
+
+BTCPATH=/some/root/path/ulucoin
+SIGPATH=/some/root/path/ulucoin-detached-sigs
+
+./bin/gbuild --url ulucoin=${BTCPATH},signature=${SIGPATH} ../ulucoin/contrib/gitian-descriptors/gitian-win-signer.yml
+>>>>>>> dev
 ```
 
 Signing externally
@@ -468,9 +536,15 @@ When you execute `gsign` you will get an error from GPG, which can be ignored. C
 in `gitian.sigs` to your signing machine and do
 
 ```bash
+<<<<<<< HEAD
     gpg --detach-sign ${VERSION}-linux/${SIGNER}/litecoin-linux-build.assert
     gpg --detach-sign ${VERSION}-win/${SIGNER}/litecoin-win-build.assert
     gpg --detach-sign ${VERSION}-osx-unsigned/${SIGNER}/litecoin-osx-build.assert
+=======
+    gpg --detach-sign ${VERSION}-linux/${SIGNER}/ulucoin-linux-build.assert
+    gpg --detach-sign ${VERSION}-win/${SIGNER}/ulucoin-win-build.assert
+    gpg --detach-sign ${VERSION}-osx-unsigned/${SIGNER}/ulucoin-osx-build.assert
+>>>>>>> dev
 ```
 
 This will create the `.sig` files that can be committed together with the `.assert` files to assert your
@@ -480,5 +554,9 @@ Uploading signatures
 ---------------------
 
 After building and signing you can push your signatures (both the `.assert` and `.assert.sig` files) to the
+<<<<<<< HEAD
 [litecoin-project/gitian.sigs.ltc](https://github.com/litecoin-project/gitian.sigs.ltc/) repository, or if that's not possible create a pull
+=======
+[ulucoin-project/gitian.sigs.ltc](https://github.com/ulucoin-project/gitian.sigs.ltc/) repository, or if that's not possible create a pull
+>>>>>>> dev
 request. You can also mail the files to thrasher (thrasher@addictionsofware.com) and he will commit them.

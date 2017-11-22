@@ -66,11 +66,19 @@ TESTS =
 BENCHMARKS =
 
 if BUILD_BITCOIND
+<<<<<<< HEAD
   bin_PROGRAMS += litecoind
 endif
 
 if BUILD_BITCOIN_UTILS
   bin_PROGRAMS += litecoin-cli litecoin-tx
+=======
+  bin_PROGRAMS += ulucoind
+endif
+
+if BUILD_BITCOIN_UTILS
+  bin_PROGRAMS += ulucoin-cli ulucoin-tx
+>>>>>>> dev
 endif
 
 .PHONY: FORCE check-symbols check-security
@@ -370,6 +378,7 @@ nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
 # bitcoind binary #
+<<<<<<< HEAD
 litecoind_SOURCES = bitcoind.cpp
 litecoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
 litecoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
@@ -380,6 +389,18 @@ litecoind_SOURCES += bitcoind-res.rc
 endif
 
 litecoind_LDADD = \
+=======
+ulucoind_SOURCES = bitcoind.cpp
+ulucoind_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+ulucoind_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+ulucoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+
+if TARGET_WINDOWS
+ulucoind_SOURCES += bitcoind-res.rc
+endif
+
+ulucoind_LDADD = \
+>>>>>>> dev
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBUNIVALUE) \
@@ -393,6 +414,7 @@ litecoind_LDADD = \
   $(LIBMEMENV) \
   $(LIBSECP256K1)
 
+<<<<<<< HEAD
 litecoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
 
 # bitcoin-cli binary #
@@ -406,11 +428,27 @@ litecoin_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
 litecoin_cli_LDADD = \
+=======
+ulucoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS) $(EVENT_PTHREADS_LIBS) $(EVENT_LIBS) $(ZMQ_LIBS)
+
+# bitcoin-cli binary #
+ulucoin_cli_SOURCES = bitcoin-cli.cpp
+ulucoin_cli_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
+ulucoin_cli_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+ulucoin_cli_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+
+if TARGET_WINDOWS
+ulucoin_cli_SOURCES += bitcoin-cli-res.rc
+endif
+
+ulucoin_cli_LDADD = \
+>>>>>>> dev
   $(LIBBITCOIN_CLI) \
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_UTIL) \
   $(LIBBITCOIN_CRYPTO)
 
+<<<<<<< HEAD
 litecoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
 #
 
@@ -425,6 +463,22 @@ litecoin_tx_SOURCES += bitcoin-tx-res.rc
 endif
 
 litecoin_tx_LDADD = \
+=======
+ulucoin_cli_LDADD += $(BOOST_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(EVENT_LIBS)
+#
+
+# bitcoin-tx binary #
+ulucoin_tx_SOURCES = bitcoin-tx.cpp
+ulucoin_tx_CPPFLAGS = $(AM_CPPFLAGS) $(BITCOIN_INCLUDES)
+ulucoin_tx_CXXFLAGS = $(AM_CXXFLAGS) $(PIE_FLAGS)
+ulucoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+
+if TARGET_WINDOWS
+ulucoin_tx_SOURCES += bitcoin-tx-res.rc
+endif
+
+ulucoin_tx_LDADD = \
+>>>>>>> dev
   $(LIBUNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -432,7 +486,11 @@ litecoin_tx_LDADD = \
   $(LIBBITCOIN_CRYPTO) \
   $(LIBSECP256K1)
 
+<<<<<<< HEAD
 litecoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+=======
+ulucoin_tx_LDADD += $(BOOST_LIBS) $(CRYPTO_LIBS)
+>>>>>>> dev
 #
 
 # bitcoinconsensus library #

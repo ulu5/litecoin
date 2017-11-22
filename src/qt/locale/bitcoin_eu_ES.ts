@@ -62,12 +62,21 @@
         <translation>Helbideak jasotzen</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Hauek dira zure Litecoin helbideak dirua bidaltzeko. Beti egiaztatu diru-kantitatea eta jasotzeko helbidea bidali baino lehen.</translation>
     </message>
     <message>
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Hauek dira zure Litecoin helbideak dirua jasotzeko. Gomendagarria da erabiltzea jasotzeko helbide berri bat operazio bakoitzeko.</translation>
+=======
+        <source>These are your Ulucoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hauek dira zure Ulucoin helbideak dirua bidaltzeko. Beti egiaztatu diru-kantitatea eta jasotzeko helbidea bidali baino lehen.</translation>
+    </message>
+    <message>
+        <source>These are your Ulucoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Hauek dira zure Ulucoin helbideak dirua jasotzeko. Gomendagarria da erabiltzea jasotzeko helbide berri bat operazio bakoitzeko.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -239,7 +248,11 @@
     </message>
     <message>
         <source>Show information about Qt</source>
+<<<<<<< HEAD
         <translation>Erakutsi Litecoin-i buruzko informazioa</translation>
+=======
+        <translation>Erakutsi Ulucoin-i buruzko informazioa</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;Options...</source>

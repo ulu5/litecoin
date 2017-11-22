@@ -122,8 +122,13 @@
         <translation>Address king pamag-Tanggap</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Litecoin address</source>
         <translation>Magpadalang barya king Litecoin address</translation>
+=======
+        <source>Send coins to a Ulucoin address</source>
+        <translation>Magpadalang barya king Ulucoin address</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -146,8 +151,13 @@
         <translation>&amp;Beripikan ing message...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Ulucoin</source>
+        <translation>Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Wallet</source>
@@ -322,8 +332,13 @@
         <translation>&amp;Network</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Ibuklat yang antimanu ing Litecoin client port king router. Gagana yamu ini istung ing router mu susuporta yang UPnP at magsilbi ya.</translation>
+=======
+        <source>Automatically open the Ulucoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ibuklat yang antimanu ing Ulucoin client port king router. Gagana yamu ini istung ing router mu susuporta yang UPnP at magsilbi ya.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -397,8 +412,13 @@
         <translation>Form</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Ing makaltong impormasion mapalyaring luma ne. Ing kekang wallet otomatiku yang mag-synchronize keng Litecoin network istung mekakonekta ne king network, oneng ing prosesung ini ali ya pa kumpletu.</translation>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ulucoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Ing makaltong impormasion mapalyaring luma ne. Ing kekang wallet otomatiku yang mag-synchronize keng Ulucoin network istung mekakonekta ne king network, oneng ing prosesung ini ali ya pa kumpletu.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Your current spendable balance</source>
@@ -655,8 +675,13 @@
         <translation>Kopyan ing kasalungsungan pirma king system clipboard</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Pirman ing mensayi ban patune na keka ya ining Litecoin address</translation>
+=======
+        <source>Sign the message to prove you own this Ulucoin address</source>
+        <translation>Pirman ing mensayi ban patune na keka ya ining Ulucoin address</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -675,8 +700,13 @@
         <translation>&amp;Beripikan ing Mensayi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>Beripikan ing mensayi ban asiguradu a me pirma ya ini gamit ing mepiling Litecoin address</translation>
+=======
+        <source>Verify the message to ensure it was signed with the specified Ulucoin address</source>
+        <translation>Beripikan ing mensayi ban asiguradu a me pirma ya ini gamit ing mepiling Ulucoin address</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -752,8 +782,13 @@
         <translation>Gumana king gulut bilang daemon at tumanggap commands</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Kapilubluban ning Litecoin</translation>
+=======
+        <source>Ulucoin Core</source>
+        <translation>Kapilubluban ning Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Block creation options:</source>

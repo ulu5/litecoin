@@ -5,7 +5,11 @@ Before every release candidate:
 
 * Update translations (ping wumpus on IRC) see [translation_process.md](https://github.com/bitcoin/bitcoin/blob/master/doc/translation_process.md#synchronising-translations).
 
+<<<<<<< HEAD
 * Update manpages, see [gen-manpages.sh](https://github.com/litecoin-project/litecoin/blob/master/contrib/devtools/README.md#gen-manpagessh).
+=======
+* Update manpages, see [gen-manpages.sh](https://github.com/ulucoin-project/ulucoin/blob/master/contrib/devtools/README.md#gen-manpagessh).
+>>>>>>> dev
 
 Before every minor and major release:
 
@@ -33,12 +37,21 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 Check out the source code in the following directory hierarchy.
 
     cd /path/to/your/toplevel/build
+<<<<<<< HEAD
     git clone https://github.com/litecoin-project/gitian.sigs.ltc.git
     git clone https://github.com/litecoin-project/litecoin-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     git clone https://github.com/litecoin-project/litecoin.git
 
 ### Litecoin maintainers/release engineers, suggestion for writing release notes
+=======
+    git clone https://github.com/ulucoin-project/gitian.sigs.ltc.git
+    git clone https://github.com/ulucoin-project/ulucoin-detached-sigs.git
+    git clone https://github.com/devrandom/gitian-builder.git
+    git clone https://github.com/ulucoin-project/ulucoin.git
+
+### Ulucoin maintainers/release engineers, suggestion for writing release notes
+>>>>>>> dev
 
 Write release notes. git shortlog helps a lot, for example:
 
@@ -61,7 +74,11 @@ If you're using the automated script (found in [contrib/gitian-build.sh](/contri
 
 Setup Gitian descriptors:
 
+<<<<<<< HEAD
     pushd ./litecoin
+=======
+    pushd ./ulucoin
+>>>>>>> dev
     export SIGNER=(your Gitian key, ie bluematt, sipa, etc)
     export VERSION=(new version, e.g. 0.8.0)
     git fetch
@@ -95,7 +112,11 @@ Create the OS X SDK tarball, see the [OS X readme](README_osx.md) for details, a
 By default, Gitian will fetch source files as needed. To cache them ahead of time:
 
     pushd ./gitian-builder
+<<<<<<< HEAD
     make -C ../litecoin/depends download SOURCES_PATH=`pwd`/cache/common
+=======
+    make -C ../ulucoin/depends download SOURCES_PATH=`pwd`/cache/common
+>>>>>>> dev
     popd
 
 Only missing files will be fetched, so this is safe to re-run for each build.
@@ -103,11 +124,16 @@ Only missing files will be fetched, so this is safe to re-run for each build.
 NOTE: Offline builds must use the --url flag to ensure Gitian fetches only from local URLs. For example:
 
     pushd ./gitian-builder
+<<<<<<< HEAD
     ./bin/gbuild --url litecoin=/path/to/litecoin,signature=/path/to/sigs {rest of arguments}
+=======
+    ./bin/gbuild --url ulucoin=/path/to/ulucoin,signature=/path/to/sigs {rest of arguments}
+>>>>>>> dev
     popd
 
 The gbuild invocations below <b>DO NOT DO THIS</b> by default.
 
+<<<<<<< HEAD
 ### Build and sign Litecoin Core for Linux, Windows, and OS X:
 
     pushd ./gitian-builder
@@ -124,29 +150,64 @@ The gbuild invocations below <b>DO NOT DO THIS</b> by default.
     ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../litecoin/contrib/gitian-descriptors/gitian-osx.yml
     mv build/out/litecoin-*-osx-unsigned.tar.gz inputs/litecoin-osx-unsigned.tar.gz
     mv build/out/litecoin-*.tar.gz build/out/litecoin-*.dmg ../
+=======
+### Build and sign Ulucoin Core for Linux, Windows, and OS X:
+
+    pushd ./gitian-builder
+    ./bin/gbuild --num-make 2 --memory 3000 --commit ulucoin=v${VERSION} ../ulucoin/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs.ltc/ ../ulucoin/contrib/gitian-descriptors/gitian-linux.yml
+    mv build/out/ulucoin-*.tar.gz build/out/src/ulucoin-*.tar.gz ../
+
+    ./bin/gbuild --num-make 2 --memory 3000 --commit ulucoin=v${VERSION} ../ulucoin/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs.ltc/ ../ulucoin/contrib/gitian-descriptors/gitian-win.yml
+    mv build/out/ulucoin-*-win-unsigned.tar.gz inputs/ulucoin-win-unsigned.tar.gz
+    mv build/out/ulucoin-*.zip build/out/ulucoin-*.exe ../
+
+    ./bin/gbuild --num-make 2 --memory 3000 --commit ulucoin=v${VERSION} ../ulucoin/contrib/gitian-descriptors/gitian-osx.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs.ltc/ ../ulucoin/contrib/gitian-descriptors/gitian-osx.yml
+    mv build/out/ulucoin-*-osx-unsigned.tar.gz inputs/ulucoin-osx-unsigned.tar.gz
+    mv build/out/ulucoin-*.tar.gz build/out/ulucoin-*.dmg ../
+>>>>>>> dev
     popd
 
 Build output expected:
 
+<<<<<<< HEAD
   1. source tarball (`litecoin-${VERSION}.tar.gz`)
   2. linux 32-bit and 64-bit dist tarballs (`litecoin-${VERSION}-linux[32|64].tar.gz`)
   3. windows 32-bit and 64-bit unsigned installers and dist zips (`litecoin-${VERSION}-win[32|64]-setup-unsigned.exe`, `litecoin-${VERSION}-win[32|64].zip`)
   4. OS X unsigned installer and dist tarball (`litecoin-${VERSION}-osx-unsigned.dmg`, `litecoin-${VERSION}-osx64.tar.gz`)
+=======
+  1. source tarball (`ulucoin-${VERSION}.tar.gz`)
+  2. linux 32-bit and 64-bit dist tarballs (`ulucoin-${VERSION}-linux[32|64].tar.gz`)
+  3. windows 32-bit and 64-bit unsigned installers and dist zips (`ulucoin-${VERSION}-win[32|64]-setup-unsigned.exe`, `ulucoin-${VERSION}-win[32|64].zip`)
+  4. OS X unsigned installer and dist tarball (`ulucoin-${VERSION}-osx-unsigned.dmg`, `ulucoin-${VERSION}-osx64.tar.gz`)
+>>>>>>> dev
   5. Gitian signatures (in `gitian.sigs.ltc/${VERSION}-<linux|{win,osx}-unsigned>/(your Gitian key)/`)
 
 ### Verify other gitian builders signatures to your own. (Optional)
 
 Add other gitian builders keys to your gpg keyring, and/or refresh keys.
 
+<<<<<<< HEAD
     gpg --import litecoin/contrib/gitian-keys/*.pgp
+=======
+    gpg --import ulucoin/contrib/gitian-keys/*.pgp
+>>>>>>> dev
     gpg --refresh-keys
 
 Verify the signatures
 
     pushd ./gitian-builder
+<<<<<<< HEAD
     ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-linux ../litecoin/contrib/gitian-descriptors/gitian-linux.yml
     ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-unsigned ../litecoin/contrib/gitian-descriptors/gitian-win.yml
     ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-unsigned ../litecoin/contrib/gitian-descriptors/gitian-osx.yml
+=======
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-linux ../ulucoin/contrib/gitian-descriptors/gitian-linux.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-unsigned ../ulucoin/contrib/gitian-descriptors/gitian-win.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-unsigned ../ulucoin/contrib/gitian-descriptors/gitian-osx.yml
+>>>>>>> dev
     popd
 
 ### Next steps:
@@ -167,22 +228,35 @@ Codesigner only: Create Windows/OS X detached signatures:
 
 Codesigner only: Sign the osx binary:
 
+<<<<<<< HEAD
     transfer litecoin-osx-unsigned.tar.gz to osx for signing
     tar xf litecoin-osx-unsigned.tar.gz
+=======
+    transfer ulucoin-osx-unsigned.tar.gz to osx for signing
+    tar xf ulucoin-osx-unsigned.tar.gz
+>>>>>>> dev
     ./detached-sig-create.sh -s "Key ID"
     Enter the keychain password and authorize the signature
     Move signature-osx.tar.gz back to the gitian host
 
 Codesigner only: Sign the windows binaries:
 
+<<<<<<< HEAD
     tar xf litecoin-win-unsigned.tar.gz
+=======
+    tar xf ulucoin-win-unsigned.tar.gz
+>>>>>>> dev
     ./detached-sig-create.sh -key /path/to/codesign.key
     Enter the passphrase for the key when prompted
     signature-win.tar.gz will be created
 
 Codesigner only: Commit the detached codesign payloads:
 
+<<<<<<< HEAD
     cd ~/litecoin-detached-sigs
+=======
+    cd ~/ulucoin-detached-sigs
+>>>>>>> dev
     checkout the appropriate branch for this release series
     rm -rf *
     tar xf signature-osx.tar.gz
@@ -195,25 +269,44 @@ Codesigner only: Commit the detached codesign payloads:
 Non-codesigners: wait for Windows/OS X detached signatures:
 
 - Once the Windows/OS X builds each have 3 matching signatures, they will be signed with their respective release keys.
+<<<<<<< HEAD
 - Detached signatures will then be committed to the [litecoin-detached-sigs](https://github.com/litecoin-project/litecoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+=======
+- Detached signatures will then be committed to the [ulucoin-detached-sigs](https://github.com/ulucoin-project/ulucoin-detached-sigs) repository, which can be combined with the unsigned apps to create signed binaries.
+>>>>>>> dev
 
 Create (and optionally verify) the signed OS X binary:
 
     pushd ./gitian-builder
+<<<<<<< HEAD
     ./bin/gbuild -i --commit signature=v${VERSION} ../litecoin/contrib/gitian-descriptors/gitian-osx-signer.yml
     ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs.ltc/ ../litecoin/contrib/gitian-descriptors/gitian-osx-signer.yml
     ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-signed ../litecoin/contrib/gitian-descriptors/gitian-osx-signer.yml
     mv build/out/litecoin-osx-signed.dmg ../litecoin-${VERSION}-osx.dmg
+=======
+    ./bin/gbuild -i --commit signature=v${VERSION} ../ulucoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs.ltc/ ../ulucoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-osx-signed ../ulucoin/contrib/gitian-descriptors/gitian-osx-signer.yml
+    mv build/out/ulucoin-osx-signed.dmg ../ulucoin-${VERSION}-osx.dmg
+>>>>>>> dev
     popd
 
 Create (and optionally verify) the signed Windows binaries:
 
     pushd ./gitian-builder
+<<<<<<< HEAD
     ./bin/gbuild -i --commit signature=v${VERSION} ../litecoin/contrib/gitian-descriptors/gitian-win-signer.yml
     ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs.ltc/ ../litecoin/contrib/gitian-descriptors/gitian-win-signer.yml
     ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-signed ../litecoin/contrib/gitian-descriptors/gitian-win-signer.yml
     mv build/out/litecoin-*win64-setup.exe ../litecoin-${VERSION}-win64-setup.exe
     mv build/out/litecoin-*win32-setup.exe ../litecoin-${VERSION}-win32-setup.exe
+=======
+    ./bin/gbuild -i --commit signature=v${VERSION} ../ulucoin/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gsign --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs.ltc/ ../ulucoin/contrib/gitian-descriptors/gitian-win-signer.yml
+    ./bin/gverify -v -d ../gitian.sigs.ltc/ -r ${VERSION}-win-signed ../ulucoin/contrib/gitian-descriptors/gitian-win-signer.yml
+    mv build/out/ulucoin-*win64-setup.exe ../ulucoin-${VERSION}-win64-setup.exe
+    mv build/out/ulucoin-*win32-setup.exe ../ulucoin-${VERSION}-win32-setup.exe
+>>>>>>> dev
     popd
 
 Commit your signature for the signed OS X/Windows binaries:
@@ -235,6 +328,7 @@ sha256sum * > SHA256SUMS
 
 The list of files should be:
 ```
+<<<<<<< HEAD
 litecoin-${VERSION}-aarch64-linux-gnu.tar.gz
 litecoin-${VERSION}-arm-linux-gnueabihf.tar.gz
 litecoin-${VERSION}-i686-pc-linux-gnu.tar.gz
@@ -246,12 +340,29 @@ litecoin-${VERSION}-win32-setup.exe
 litecoin-${VERSION}-win32.zip
 litecoin-${VERSION}-win64-setup.exe
 litecoin-${VERSION}-win64.zip
+=======
+ulucoin-${VERSION}-aarch64-linux-gnu.tar.gz
+ulucoin-${VERSION}-arm-linux-gnueabihf.tar.gz
+ulucoin-${VERSION}-i686-pc-linux-gnu.tar.gz
+ulucoin-${VERSION}-x86_64-linux-gnu.tar.gz
+ulucoin-${VERSION}-osx64.tar.gz
+ulucoin-${VERSION}-osx.dmg
+ulucoin-${VERSION}.tar.gz
+ulucoin-${VERSION}-win32-setup.exe
+ulucoin-${VERSION}-win32.zip
+ulucoin-${VERSION}-win64-setup.exe
+ulucoin-${VERSION}-win64.zip
+>>>>>>> dev
 ```
 The `*-debug*` files generated by the gitian build contain debug symbols
 for troubleshooting by developers. It is assumed that anyone that is interested
 in debugging can run gitian to generate the files for themselves. To avoid
 end-user confusion about which file to pick, as well as save storage
+<<<<<<< HEAD
 space *do not upload these to the litecoin.org server, nor put them in the torrent*.
+=======
+space *do not upload these to the ulucoin.org server, nor put them in the torrent*.
+>>>>>>> dev
 
 - GPG-sign it, delete the unsigned file:
 ```
@@ -261,6 +372,7 @@ rm SHA256SUMS
 (the digest algorithm is forced to sha256 to avoid confusion of the `Hash:` header that GPG adds with the SHA256 used for the files)
 Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spurious/nonsensical entry.
 
+<<<<<<< HEAD
 - Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the litecoin.org server.
 
 ```
@@ -280,5 +392,26 @@ Note: check that SHA256SUMS itself doesn't end up in SHA256SUMS, which is a spur
   - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
 
   - Create a [new GitHub release](https://github.com/litecoin-project/litecoin/releases/new) with a link to the archived release notes.
+=======
+- Upload zips and installers, as well as `SHA256SUMS.asc` from last step, to the ulucoin.org server.
+
+```
+
+- Update ulucoin.org version
+
+- Announce the release:
+
+  - ulucoin-dev and ulucoin-dev mailing list
+
+  - blog.ulucoin.org blog post
+
+  - Update title of #ulucoin and #ulucoin-dev on Freenode IRC
+
+  - Optionally twitter, reddit /r/Ulucoin, ... but this will usually sort out itself
+
+  - Archive release notes for the new version to `doc/release-notes/` (branch `master` and branch of the release)
+
+  - Create a [new GitHub release](https://github.com/ulucoin-project/ulucoin/releases/new) with a link to the archived release notes.
+>>>>>>> dev
 
   - Celebrate

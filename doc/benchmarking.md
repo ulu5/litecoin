@@ -1,11 +1,19 @@
 Benchmarking
 ============
 
+<<<<<<< HEAD
 Litecoin Core has an internal benchmarking framework, with benchmarks
 for cryptographic algorithms such as SHA1, SHA256, SHA512 and RIPEMD160. As well as the rolling bloom filter.
 
 After compiling litecoin-core, the benchmarks can be run with:
 `src/bench/bench_litecoin`
+=======
+Ulucoin Core has an internal benchmarking framework, with benchmarks
+for cryptographic algorithms such as SHA1, SHA256, SHA512 and RIPEMD160. As well as the rolling bloom filter.
+
+After compiling ulucoin-core, the benchmarks can be run with:
+`src/bench/bench_ulucoin`
+>>>>>>> dev
 
 The output will look similar to:
 ```

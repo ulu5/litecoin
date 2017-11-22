@@ -16,6 +16,7 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
+<<<<<<< HEAD
             VALUE "CompanyName",        "Litecoin"
             VALUE "FileDescription",    "litecoin-cli (JSON-RPC client for " PACKAGE_NAME ")"
             VALUE "FileVersion",        VER_FILEVERSION_STR
@@ -24,6 +25,16 @@ BEGIN
             VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
             VALUE "OriginalFilename",   "litecoin-cli.exe"
             VALUE "ProductName",        "litecoin-cli"
+=======
+            VALUE "CompanyName",        "Ulucoin"
+            VALUE "FileDescription",    "ulucoin-cli (JSON-RPC client for " PACKAGE_NAME ")"
+            VALUE "FileVersion",        VER_FILEVERSION_STR
+            VALUE "InternalName",       "ulucoin-cli"
+            VALUE "LegalCopyright",     COPYRIGHT_STR
+            VALUE "LegalTrademarks1",   "Distributed under the MIT software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
+            VALUE "OriginalFilename",   "ulucoin-cli.exe"
+            VALUE "ProductName",        "ulucoin-cli"
+>>>>>>> dev
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

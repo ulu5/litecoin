@@ -785,7 +785,11 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         }
         else if (!addr.IsValid()) // Invalid address
         {
+<<<<<<< HEAD
             ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Litecoin address"));
+=======
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Ulucoin address"));
+>>>>>>> dev
         }
         else // Valid address
         {

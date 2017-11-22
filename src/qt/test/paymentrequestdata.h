@@ -435,7 +435,11 @@ d2hj739GDLz0b5KuJ2SG6VknMRQM976w/m2qlq0ccVGaaZ2zMIGfpzL3p6adwx/5\
 ";
 
 //
+<<<<<<< HEAD
 // Payment request with amount overflow (amount is set to 84000001 LTC)
+=======
+// Payment request with amount overflow (amount is set to 84000001 ULU)
+>>>>>>> dev
 //
 const char* paymentrequest5_cert2_BASE64 =
 "\

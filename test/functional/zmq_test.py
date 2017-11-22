@@ -32,7 +32,11 @@ class ZMQTest (BitcoinTestFramework):
         config.read_file(open(self.options.configfile))
 
         if not config["components"].getboolean("ENABLE_ZMQ"):
+<<<<<<< HEAD
             raise SkipTest("litecoind has not been built with zmq enabled.")
+=======
+            raise SkipTest("ulucoind has not been built with zmq enabled.")
+>>>>>>> dev
 
         self.zmqContext = zmq.Context()
         self.zmqSubSocket = self.zmqContext.socket(zmq.SUB)

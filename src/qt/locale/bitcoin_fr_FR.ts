@@ -43,11 +43,19 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
+<<<<<<< HEAD
         <translation>Choisissez une adresse où envoyer les litecoins</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
         <translation>Choisissez une adresse où recevoir les litecoins</translation>
+=======
+        <translation>Choisissez une adresse où envoyer les ulucoins</translation>
+    </message>
+    <message>
+        <source>Choose the address to receive coins with</source>
+        <translation>Choisissez une adresse où recevoir les ulucoins</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -238,8 +246,13 @@
         <translation>Réindexer les blocs sur le disque...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Litecoin address</source>
         <translation>Envoyer des pièces à une adresse Litecoin</translation>
+=======
+        <source>Send coins to a Ulucoin address</source>
+        <translation>Envoyer des pièces à une adresse Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -262,8 +275,13 @@
         <translation>&amp;Vérification du message</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Ulucoin</source>
+        <translation>Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Wallet</source>
@@ -290,8 +308,13 @@
         <translation>Crypter les clé privées qui appartiennent votre portefeuille</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Signer vos messages avec vos adresses Litecoin pour prouver que vous les détenez</translation>
+=======
+        <source>Sign messages with your Ulucoin addresses to prove you own them</source>
+        <translation>Signer vos messages avec vos adresses Ulucoin pour prouver que vous les détenez</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;File</source>
@@ -310,24 +333,39 @@
         <translation>Barre d'outils des onglets</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Demander des paiements (générer QR codes et litecoin: URIs)</translation>
+=======
+        <source>Request payments (generates QR codes and ulucoin: URIs)</source>
+        <translation>Demander des paiements (générer QR codes et ulucoin: URIs)</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
         <translation>Montrer la liste des adresses d'envois utilisées et les étiquettes</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open a litecoin: URI or payment request</source>
         <translation>Ouvrir un litecoin: URI ou demande de paiement</translation>
+=======
+        <source>Open a ulucoin: URI or payment request</source>
+        <translation>Ouvrir un ulucoin: URI ou demande de paiement</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Options de ligne de commande</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n connexion active au réseau Litecoin</numerusform><numerusform>%n connexions actives au réseau Litecoin</numerusform></translation>
+=======
+        <source>%n active connection(s) to Ulucoin network</source>
+        <translation><numerusform>%n connexion active au réseau Ulucoin</numerusform><numerusform>%n connexions actives au réseau Ulucoin</numerusform></translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -712,8 +750,13 @@
         <translation>Expert</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Ouvrir le port du client Litecoin automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
+=======
+        <source>Automatically open the Ulucoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ouvrir le port du client Ulucoin automatiquement sur le routeur. Cela ne fonctionne que si votre routeur supporte l'UPnP et si la fonctionnalité est activée.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -872,8 +915,13 @@
         <translation>Montant</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Litecoin address (e.g. %1)</source>
         <translation>Entrer une adresse Litecoin (e.g. %1)</translation>
+=======
+        <source>Enter a Ulucoin address (e.g. %1)</source>
+        <translation>Entrer une adresse Ulucoin (e.g. %1)</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>%1 d</source>
@@ -1734,8 +1782,13 @@
         <translation>Impossible de démarrer le serveur HTTP. Voir le journal de débogage pour plus de détails.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
+=======
+        <source>Ulucoin Core</source>
+        <translation>Ulucoin Core</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&lt;category&gt; can be:</source>

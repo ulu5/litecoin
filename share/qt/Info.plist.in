@@ -29,16 +29,27 @@
   <string>????</string>
 
   <key>CFBundleExecutable</key>
+<<<<<<< HEAD
   <string>Litecoin-Qt</string>
   
   <key>CFBundleName</key>
   <string>Litecoin-Qt</string>
+=======
+  <string>Ulucoin-Qt</string>
+  
+  <key>CFBundleName</key>
+  <string>Ulucoin-Qt</string>
+>>>>>>> dev
 
   <key>LSHasLocalizedDisplayName</key>
   <true/>
 
   <key>CFBundleIdentifier</key>
+<<<<<<< HEAD
   <string>org.litecoin.Litecoin-Qt</string>
+=======
+  <string>org.ulucoin.Ulucoin-Qt</string>
+>>>>>>> dev
 
   <key>CFBundleURLTypes</key>
   <array>
@@ -46,10 +57,17 @@
       <key>CFBundleTypeRole</key>
       <string>Editor</string>
       <key>CFBundleURLName</key>
+<<<<<<< HEAD
       <string>org.litecoin.LitecoinPayment</string>
       <key>CFBundleURLSchemes</key>
       <array>
         <string>litecoin</string>
+=======
+      <string>org.ulucoin.UlucoinPayment</string>
+      <key>CFBundleURLSchemes</key>
+      <array>
+        <string>ulucoin</string>
+>>>>>>> dev
       </array>
     </dict>
   </array>
@@ -58,9 +76,15 @@
   <array>
     <dict>
       <key>UTTypeIdentifier</key>
+<<<<<<< HEAD
       <string>org.litecoin.paymentrequest</string>
       <key>UTTypeDescription</key>
       <string>Litecoin payment request</string>
+=======
+      <string>org.ulucoin.paymentrequest</string>
+      <key>UTTypeDescription</key>
+      <string>Ulucoin payment request</string>
+>>>>>>> dev
       <key>UTTypeConformsTo</key>
       <array>
         <string>public.data</string>
@@ -68,10 +92,17 @@
       <key>UTTypeTagSpecification</key>
       <dict>
         <key>public.mime-type</key>
+<<<<<<< HEAD
         <string>application/x-litecoin-payment-request</string>
         <key>public.filename-extension</key>
         <array>
           <string>litecoinpaymentrequest</string>
+=======
+        <string>application/x-ulucoin-payment-request</string>
+        <key>public.filename-extension</key>
+        <array>
+          <string>ulucoinpaymentrequest</string>
+>>>>>>> dev
         </array>
       </dict>
     </dict>
@@ -84,7 +115,11 @@
       <string>Editor</string>
       <key>LSItemContentTypes</key>
       <array>
+<<<<<<< HEAD
         <string>org.litecoin.paymentrequest</string>
+=======
+        <string>org.ulucoin.paymentrequest</string>
+>>>>>>> dev
       </array>
       <key>LSHandlerRank</key>
       <string>Owner</string>

@@ -62,12 +62,21 @@
         <translation>Ontvanger adresse</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Hierdie is die adresse vanwaar u Litecoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
     </message>
     <message>
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Hierdie is die adresse waar u Litecoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
+=======
+        <source>These are your Ulucoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Hierdie is die adresse vanwaar u Ulucoin betalings stuur. U moet altyd die bedrag en die adres van die ontvanger nagaan voordat u enige munte stuur.</translation>
+    </message>
+    <message>
+        <source>These are your Ulucoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Hierdie is die adresse waar u Ulucoins sal ontvang. Ons beveel aan dat u 'n nuwe adres kies vir elke transaksie</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -330,8 +339,13 @@
         <translation>Besig met herindeksering van blokke op hardeskyf...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Litecoin address</source>
         <translation>Stuur munte na 'n Litecoin adres</translation>
+=======
+        <source>Send coins to a Ulucoin address</source>
+        <translation>Stuur munte na 'n Ulucoin adres</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -350,8 +364,13 @@
         <translation>Maak ontfouting en diagnostiese konsole oop</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Ulucoin</source>
+        <translation>Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Wallet</source>
@@ -378,12 +397,21 @@
         <translation>Kodifiseer die private sleutes wat aan jou beursie gekoppel is.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Onderteken boodskappe met u Litecoin adresse om u eienaarskap te bewys</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Litecoin adresse</translation>
+=======
+        <source>Sign messages with your Ulucoin addresses to prove you own them</source>
+        <translation>Onderteken boodskappe met u Ulucoin adresse om u eienaarskap te bewys</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Ulucoin addresses</source>
+        <translation>Verifieër boodskappe om seker te maak dat dit met die gespesifiseerde Ulucoin adresse</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;File</source>
@@ -398,8 +426,13 @@
         <translation>Orebalk</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Versoek betalings (genereer QR-kodes en litecoin: URI's)</translation>
+=======
+        <source>Request payments (generates QR codes and ulucoin: URIs)</source>
+        <translation>Versoek betalings (genereer QR-kodes en ulucoin: URI's)</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -410,8 +443,13 @@
         <translation>Vertoon die lys van gebruikte ontvangers-adresse en etikette</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open a litecoin: URI or payment request</source>
         <translation>Skep 'n litecoin: URI of betalingsversoek</translation>
+=======
+        <source>Open a ulucoin: URI or payment request</source>
+        <translation>Skep 'n ulucoin: URI of betalingsversoek</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -1012,8 +1050,13 @@
 <context>
     <name>bitcoin-core</name>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Litecoin Kern</translation>
+=======
+        <source>Ulucoin Core</source>
+        <translation>Ulucoin Kern</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Information</source>

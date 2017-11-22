@@ -24,6 +24,7 @@ If you want to build the disk image with `make deploy` (.dmg / optional), you ne
 
 NOTE: Building with Qt4 is still supported, however, could result in a broken UI. Building with Qt5 is recommended.
 
+<<<<<<< HEAD
 Build Litecoin Core
 ------------------------
 
@@ -35,6 +36,19 @@ Build Litecoin Core
 2.  Build litecoin-core:
 
     Configure and build the headless litecoin binaries as well as the GUI (if Qt is found).
+=======
+Build Ulucoin Core
+------------------------
+
+1. Clone the ulucoin source code and cd into `ulucoin`
+
+        git clone https://github.com/ulucoin-project/ulucoin
+        cd ulucoin
+
+2.  Build ulucoin-core:
+
+    Configure and build the headless ulucoin binaries as well as the GUI (if Qt is found).
+>>>>>>> dev
 
     You can disable the GUI build by passing `--without-gui` to configure.
 
@@ -53,6 +67,7 @@ Build Litecoin Core
 Running
 -------
 
+<<<<<<< HEAD
 Litecoin Core is now available at `./src/litecoind`
 
 Before running, it's recommended you create an RPC configuration file.
@@ -66,10 +81,26 @@ The first time you run litecoind, it will start downloading the blockchain. This
 You can monitor the download process by looking at the debug.log file:
 
     tail -f $HOME/Library/Application\ Support/Litecoin/debug.log
+=======
+Ulucoin Core is now available at `./src/ulucoind`
+
+Before running, it's recommended you create an RPC configuration file.
+
+    echo -e "rpcuser=ulucoinrpc\nrpcpassword=$(xxd -l 16 -p /dev/urandom)" > "/Users/${USER}/Library/Application Support/Ulucoin/ulucoin.conf"
+
+    chmod 600 "/Users/${USER}/Library/Application Support/Ulucoin/ulucoin.conf"
+
+The first time you run ulucoind, it will start downloading the blockchain. This process could take several hours.
+
+You can monitor the download process by looking at the debug.log file:
+
+    tail -f $HOME/Library/Application\ Support/Ulucoin/debug.log
+>>>>>>> dev
 
 Other commands:
 -------
 
+<<<<<<< HEAD
     ./src/litecoind -daemon # Starts the litecoin daemon.
     ./src/litecoin-cli --help # Outputs a list of command-line options.
     ./src/litecoin-cli help # Outputs a list of RPC commands when the daemon is running.
@@ -77,13 +108,26 @@ Other commands:
 Using Qt Creator as IDE
 ------------------------
 You can use Qt Creator as an IDE, for litecoin development.
+=======
+    ./src/ulucoind -daemon # Starts the ulucoin daemon.
+    ./src/ulucoin-cli --help # Outputs a list of command-line options.
+    ./src/ulucoin-cli help # Outputs a list of RPC commands when the daemon is running.
+
+Using Qt Creator as IDE
+------------------------
+You can use Qt Creator as an IDE, for ulucoin development.
+>>>>>>> dev
 Download and install the community edition of [Qt Creator](https://www.qt.io/download/).
 Uncheck everything except Qt Creator during the installation process.
 
 1. Make sure you installed everything through Homebrew mentioned above
 2. Do a proper ./configure --enable-debug
 3. In Qt Creator do "New Project" -> Import Project -> Import Existing Project
+<<<<<<< HEAD
 4. Enter "litecoin-qt" as project name, enter src/qt as location
+=======
+4. Enter "ulucoin-qt" as project name, enter src/qt as location
+>>>>>>> dev
 5. Leave the file selection as it is
 6. Confirm the "summary page"
 7. In the "Projects" tab select "Manage Kits..."

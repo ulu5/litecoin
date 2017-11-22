@@ -114,8 +114,13 @@
         <translation>Reindexando bloques en el disco...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Litecoin address</source>
         <translation>Enviar monedas a una dirección Litecoin</translation>
+=======
+        <source>Send coins to a Ulucoin address</source>
+        <translation>Enviar monedas a una dirección Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -130,8 +135,13 @@
         <translation>Abre la consola de depuración y diágnostico</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Ulucoin</source>
+        <translation>Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Wallet</source>
@@ -158,12 +168,21 @@
         <translation>Encriptar las llaves privadas que pertenecen a tu billetera</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Firma mensajes con tus direcciones Litecoin para probar que eres dueño de ellas</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Verificar mensajes para asegurar que estaban firmados con direcciones Litecoin especificas</translation>
+=======
+        <source>Sign messages with your Ulucoin addresses to prove you own them</source>
+        <translation>Firma mensajes con tus direcciones Ulucoin para probar que eres dueño de ellas</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Ulucoin addresses</source>
+        <translation>Verificar mensajes para asegurar que estaban firmados con direcciones Ulucoin especificas</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;File</source>
@@ -608,8 +627,13 @@
         <translation>Correr en segundo plano como daemon y aceptar comandos</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
+=======
+        <source>Ulucoin Core</source>
+        <translation>Ulucoin Core</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

@@ -70,7 +70,11 @@ HelpMessageDialog::HelpMessageDialog(QWidget *parent, bool about) :
     } else {
         setWindowTitle(tr("Command-line options"));
         QString header = tr("Usage:") + "\n" +
+<<<<<<< HEAD
             "  litecoin-qt [" + tr("command-line options") + "]                     " + "\n";
+=======
+            "  ulucoin-qt [" + tr("command-line options") + "]                     " + "\n";
+>>>>>>> dev
         QTextCursor cursor(ui->helpMessage->document());
         cursor.insertText(version);
         cursor.insertBlock();

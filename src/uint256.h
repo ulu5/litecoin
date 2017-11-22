@@ -47,6 +47,10 @@ public:
     friend inline bool operator==(const base_blob& a, const base_blob& b) { return a.Compare(b) == 0; }
     friend inline bool operator!=(const base_blob& a, const base_blob& b) { return a.Compare(b) != 0; }
     friend inline bool operator<(const base_blob& a, const base_blob& b) { return a.Compare(b) < 0; }
+<<<<<<< HEAD
+=======
+    friend inline bool operator<=(const base_blob& a, const base_blob& b) { return a.Compare(b) <= 0; }
+>>>>>>> dev
 
     std::string GetHex() const;
     void SetHex(const char* psz);

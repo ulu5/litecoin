@@ -62,12 +62,21 @@
         <translation>Vastuvõtvad aadressid</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Need on sinu Litecoin aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
     </message>
     <message>
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Need on sinu Litecoin aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
+=======
+        <source>These are your Ulucoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Need on sinu Ulucoin aadressid maksete saatmiseks. Ennem müntide saatmist kontrolli alati summat ja makse saaja aadressi.</translation>
+    </message>
+    <message>
+        <source>These are your Ulucoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Need on sinu Ulucoin aadressid sisenevate maksete vastu võtmiseks. Soovitav on iga tehingu tarbeks kasutada uut aadressi.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -290,8 +299,13 @@
         <translation>Kettal olevate blokkide re-indekseerimine...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Litecoin address</source>
         <translation>Saada münte Litecoini aadressile</translation>
+=======
+        <source>Send coins to a Ulucoin address</source>
+        <translation>Saada münte Ulucoini aadressile</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -314,8 +328,13 @@
         <translation>&amp;Kontrolli sõnumit...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Ulucoin</source>
+        <translation>Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Wallet</source>
@@ -342,12 +361,21 @@
         <translation>Krüpteeri oma rahakoti privaatvõtmed</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Omandi tõestamiseks allkirjasta sõnumid oma Litecoini aadressiga</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Litecoini aadressiga</translation>
+=======
+        <source>Sign messages with your Ulucoin addresses to prove you own them</source>
+        <translation>Omandi tõestamiseks allkirjasta sõnumid oma Ulucoini aadressiga</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Ulucoin addresses</source>
+        <translation>Kinnita sõnumid kindlustamaks et need allkirjastati määratud Ulucoini aadressiga</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;File</source>
@@ -366,20 +394,34 @@
         <translation>Vahelehe tööriistariba</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Loo maksepäring (genereerib QR koodid ja litecoini: URId)</translation>
     </message>
     <message>
         <source>Open a litecoin: URI or payment request</source>
         <translation>Ava litecoini: URI või maksepäring</translation>
+=======
+        <source>Request payments (generates QR codes and ulucoin: URIs)</source>
+        <translation>Loo maksepäring (genereerib QR koodid ja ulucoini: URId)</translation>
+    </message>
+    <message>
+        <source>Open a ulucoin: URI or payment request</source>
+        <translation>Ava ulucoini: URI või maksepäring</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>Käsurea valikud</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n aktiivne ühendus Litecoini võrku</numerusform><numerusform>%n aktiivset ühendust Litecoini võrku</numerusform></translation>
+=======
+        <source>%n active connection(s) to Ulucoin network</source>
+        <translation><numerusform>%n aktiivne ühendus Ulucoini võrku</numerusform><numerusform>%n aktiivset ühendust Ulucoini võrku</numerusform></translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -626,8 +668,13 @@
         <translation>Muuda saatvat aadressi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Litecoin address.</source>
         <translation>Sisestatud aadress "%1" ei ole korrektne Litecoin aadress.</translation>
+=======
+        <source>The entered address "%1" is not a valid Ulucoin address.</source>
+        <translation>Sisestatud aadress "%1" ei ole korrektne Ulucoin aadress.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -756,8 +803,13 @@
         <translation>Ekspert</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Litecoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+=======
+        <source>Automatically open the Ulucoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Ulucoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -855,7 +907,11 @@
         <translation>Vorm</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ulucoin network after a connection is established, but this process has not completed yet.</source>
+>>>>>>> dev
         <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Liteconi võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
@@ -1337,8 +1393,13 @@
         <translation>Maksepäring aegunud.</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Warning: Invalid Litecoin address</source>
         <translation>Hoiatus: Ebakorrektne Litecoin aadress</translation>
+=======
+        <source>Warning: Invalid Ulucoin address</source>
+        <translation>Hoiatus: Ebakorrektne Ulucoin aadress</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>(no label)</source>
@@ -1417,8 +1478,13 @@
         <translation>&amp;Allkirjastamise teade</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Litecoin address to sign the message with</source>
         <translation>Litecoin aadress millega sõnum allkirjastada</translation>
+=======
+        <source>The Ulucoin address to sign the message with</source>
+        <translation>Ulucoin aadress millega sõnum allkirjastada</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1449,8 +1515,13 @@
         <translation>Kopeeri praegune signatuur vahemällu</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Allkirjasta sõnum Litecoini aadressi sulle kuulumise tõestamiseks</translation>
+=======
+        <source>Sign the message to prove you own this Ulucoin address</source>
+        <translation>Allkirjasta sõnum Ulucoini aadressi sulle kuulumise tõestamiseks</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1469,12 +1540,21 @@
         <translation>&amp;Kinnita Sõnum</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The Litecoin address the message was signed with</source>
         <translation>Litecoin aadress millega sõnum on allkirjastatud</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
         <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Litecoini aadressiga.</translation>
+=======
+        <source>The Ulucoin address the message was signed with</source>
+        <translation>Ulucoin aadress millega sõnum on allkirjastatud</translation>
+    </message>
+    <message>
+        <source>Verify the message to ensure it was signed with the specified Ulucoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Ulucoini aadressiga.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1758,8 +1838,13 @@
         <translation>Tööta taustal ning aktsepteeri käsklusi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Litecoini tuumik</translation>
+=======
+        <source>Ulucoin Core</source>
+        <translation>Ulucoini tuumik</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Bind to given address and always listen on it. Use [host]:port notation for IPv6</source>

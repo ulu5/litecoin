@@ -70,7 +70,11 @@
         <translation>Құпия сөзді өзгерту</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
+=======
+        <source>Ulucoin</source>
+>>>>>>> dev
         <translation>Биткоин</translation>
     </message>
     <message>

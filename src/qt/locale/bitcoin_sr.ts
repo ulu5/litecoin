@@ -130,8 +130,13 @@
         <translation>Промени &amp;лозинку...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Litecoin address</source>
         <translation>Пошаљите новац на litecoin адресу</translation>
+=======
+        <source>Send coins to a Ulucoin address</source>
+        <translation>Пошаљите новац на ulucoin адресу</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Change the passphrase used for wallet encryption</source>

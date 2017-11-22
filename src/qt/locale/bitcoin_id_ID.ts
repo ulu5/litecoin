@@ -62,12 +62,21 @@
         <translation>Alamat-alamat penerima</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>These are your Litecoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Ini adalah alamat- alamat Litecoin Anda untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
     </message>
     <message>
         <source>These are your Litecoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation>Ini adalah alamat- alamat Litecoin Anda untuk menerima pembayaran. Dianjurkan untuk menggunakan alamat penerima yang baru setiap melakukan transaksi.</translation>
+=======
+        <source>These are your Ulucoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Ini adalah alamat- alamat Ulucoin Anda untuk mengirimkan pembayaran. Selalu periksa jumlah dan alamat penerima sebelum mengirimkan koin.</translation>
+    </message>
+    <message>
+        <source>These are your Ulucoin addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Ini adalah alamat- alamat Ulucoin Anda untuk menerima pembayaran. Dianjurkan untuk menggunakan alamat penerima yang baru setiap melakukan transaksi.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,7 +185,11 @@
         <translation>Dompet terenkripsi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
+=======
+        <source>%1 will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your ulucoins from being stolen by malware infecting your computer.</source>
+>>>>>>> dev
         <translation>%1 sekarang akan ditutup untuk menyelesaikan proses enkripsi. Ingatlah bahwa mengenkripsi dompet Anda tidak dapat sepenuhnya melindungi komputer Anda dari pencurian malware yang menginfeksi komputer Anda.</translation>
     </message>
     <message>
@@ -334,8 +347,13 @@
         <translation>Mengindex ulang blok di dalam disk...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Send coins to a Litecoin address</source>
         <translation>Kirim koin ke alamat Litecoin</translation>
+=======
+        <source>Send coins to a Ulucoin address</source>
+        <translation>Kirim koin ke alamat Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -358,8 +376,13 @@
         <translation>&amp;Verifikasi pesan...</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin</source>
         <translation>Litecoin</translation>
+=======
+        <source>Ulucoin</source>
+        <translation>Ulucoin</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Wallet</source>
@@ -386,12 +409,21 @@
         <translation>Enkripsi private key yang dimiliki dompet Anda</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign messages with your Litecoin addresses to prove you own them</source>
         <translation>Tanda tangani sebuah pesan menggunakan alamat Litecoin Anda untuk membuktikan bahwa Anda adalah pemilik alamat tersebut</translation>
     </message>
     <message>
         <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
         <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditanda tangani oleh suatu alamat Litecoin tertentu</translation>
+=======
+        <source>Sign messages with your Ulucoin addresses to prove you own them</source>
+        <translation>Tanda tangani sebuah pesan menggunakan alamat Ulucoin Anda untuk membuktikan bahwa Anda adalah pemilik alamat tersebut</translation>
+    </message>
+    <message>
+        <source>Verify messages to ensure they were signed with specified Ulucoin addresses</source>
+        <translation>Verifikasi pesan untuk memastikan bahwa pesan tersebut ditanda tangani oleh suatu alamat Ulucoin tertentu</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;File</source>
@@ -410,8 +442,13 @@
         <translation>Baris tab</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Request payments (generates QR codes and litecoin: URIs)</source>
         <translation>Permintaan pembayaran (membuat kode QR dan litecoin: URIs)</translation>
+=======
+        <source>Request payments (generates QR codes and ulucoin: URIs)</source>
+        <translation>Permintaan pembayaran (membuat kode QR dan ulucoin: URIs)</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -422,16 +459,26 @@
         <translation>Tampilkan daftar alamat dan label yang diterima</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Open a litecoin: URI or payment request</source>
         <translation>Buka URI litecoin: atau permintaan pembayaran</translation>
+=======
+        <source>Open a ulucoin: URI or payment request</source>
+        <translation>Buka URI ulucoin: atau permintaan pembayaran</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;pilihan Command-line</translation>
     </message>
     <message numerus="yes">
+<<<<<<< HEAD
         <source>%n active connection(s) to Litecoin network</source>
         <translation><numerusform>%n koneksi aktif ke jaringan Litecoin</numerusform></translation>
+=======
+        <source>%n active connection(s) to Ulucoin network</source>
+        <translation><numerusform>%n koneksi aktif ke jaringan Ulucoin</numerusform></translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Indexing blocks on disk...</source>
@@ -474,8 +521,13 @@
         <translation>Terbaru</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Show the %1 help message to get a list with possible Litecoin command-line options</source>
         <translation>Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah Litecoin yang memungkinkan</translation>
+=======
+        <source>Show the %1 help message to get a list with possible Ulucoin command-line options</source>
+        <translation>Tampilkan %1 pesan bantuan untuk mendapatkan daftar opsi baris perintah Ulucoin yang memungkinkan</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>%1 client</source>
@@ -544,8 +596,13 @@
         <translation>Dompet saat ini &lt;b&gt;terenkripsi&lt;/b&gt; dan &lt;b&gt;terkunci&lt;/b&gt;</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>A fatal error occurred. Litecoin can no longer continue safely and will quit.</source>
         <translation>Terjadi Kesalahan Fatal. Litecoin Tidak Dapat Melanjutkan Dengan Aman Dan Akan Keluar</translation>
+=======
+        <source>A fatal error occurred. Ulucoin can no longer continue safely and will quit.</source>
+        <translation>Terjadi Kesalahan Fatal. Ulucoin Tidak Dapat Melanjutkan Dengan Aman Dan Akan Keluar</translation>
+>>>>>>> dev
     </message>
 </context>
 <context>
@@ -722,8 +779,13 @@
         <translation>Ubah alamat pengirim</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The entered address "%1" is not a valid Litecoin address.</source>
         <translation>Alamat yang dimasukkan "%1" bukanlah alamat Litecoin yang valid.</translation>
+=======
+        <source>The entered address "%1" is not a valid Ulucoin address.</source>
+        <translation>Alamat yang dimasukkan "%1" bukanlah alamat Ulucoin yang valid.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -972,16 +1034,26 @@
         <translation>&amp;Perubahan saldo untuk transaksi yang belum dikonfirmasi</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Otomatis membuka port client Litecoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
+=======
+        <source>Automatically open the Ulucoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Otomatis membuka port client Ulucoin di router. Hanya berjalan apabila router anda mendukung UPnP dan di-enable.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
         <translation>Petakan port dengan &amp;UPnP</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Connect to the Litecoin network through a SOCKS5 proxy.</source>
         <translation>Hubungkan ke jaringan Litecoin melalui SOCKS5 proxy.</translation>
+=======
+        <source>Connect to the Ulucoin network through a SOCKS5 proxy.</source>
+        <translation>Hubungkan ke jaringan Ulucoin melalui SOCKS5 proxy.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1087,8 +1159,13 @@
         <translation>Formulir</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
         <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Litecoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
+=======
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Ulucoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Informasi terlampir mungkin sudah kedaluwarsa. Dompet Anda secara otomatis mensinkronisasi dengan jaringan Ulucoin ketika sebuah hubungan terbentuk, namun proses ini belum selesai.</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Available:</source>
@@ -1144,8 +1221,13 @@
         <translation>Nilai</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Enter a Litecoin address (e.g. %1)</source>
         <translation>Masukkan alamat Litecoin (contoh %1)</translation>
+=======
+        <source>Enter a Ulucoin address (e.g. %1)</source>
+        <translation>Masukkan alamat Ulucoin (contoh %1)</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>%1 h</source>
@@ -1679,8 +1761,13 @@
         <translation>Salin tanda tangan terpilih ke sistem klipboard</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Sign the message to prove you own this Litecoin address</source>
         <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Litecoin ini</translation>
+=======
+        <source>Sign the message to prove you own this Ulucoin address</source>
+        <translation>Tandai pesan untuk menyetujui kamu pemiliki alamat Ulucoin ini</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1820,8 +1907,13 @@
         <translation>Berjalan dibelakang sebagai daemin dan menerima perintah</translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Litecoin Core</source>
         <translation>Litecoin Core</translation>
+=======
+        <source>Ulucoin Core</source>
+        <translation>Ulucoin Core</translation>
+>>>>>>> dev
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>

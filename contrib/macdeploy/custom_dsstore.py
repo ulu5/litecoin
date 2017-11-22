@@ -45,8 +45,13 @@ alias = Alias.from_bytes(icvp['backgroundImageAlias'])
 alias.volume.name = package_name_ns
 alias.volume.posix_path = '/Volumes/' + package_name_ns
 alias.volume.disk_image_alias.target.filename = package_name_ns + '.temp.dmg'
+<<<<<<< HEAD
 alias.volume.disk_image_alias.target.carbon_path = 'Macintosh HD:Users:\x00litecoinuser:\x00Documents:\x00litecoin:\x00litecoin:\x00' + package_name_ns + '.temp.dmg'
 alias.volume.disk_image_alias.target.posix_path = 'Users/litecoinuser/Documents/litecoin/litecoin/' + package_name_ns + '.temp.dmg'
+=======
+alias.volume.disk_image_alias.target.carbon_path = 'Macintosh HD:Users:\x00ulucoinuser:\x00Documents:\x00ulucoin:\x00ulucoin:\x00' + package_name_ns + '.temp.dmg'
+alias.volume.disk_image_alias.target.posix_path = 'Users/ulucoinuser/Documents/ulucoin/ulucoin/' + package_name_ns + '.temp.dmg'
+>>>>>>> dev
 alias.target.carbon_path = package_name_ns + ':.background:\x00background.tiff'
 icvp['backgroundImageAlias'] = biplist.Data(alias.to_bytes())
 ds['.']['icvp'] = icvp
@@ -54,7 +59,11 @@ ds['.']['icvp'] = icvp
 ds['.']['vSrn'] = ('long', 1)
 
 ds['Applications']['Iloc'] = (370, 156)
+<<<<<<< HEAD
 ds['Litecoin-Qt.app']['Iloc'] = (128, 156)
+=======
+ds['Ulucoin-Qt.app']['Iloc'] = (128, 156)
+>>>>>>> dev
 
 ds.flush()
 ds.close()

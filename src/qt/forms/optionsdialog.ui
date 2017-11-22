@@ -189,7 +189,11 @@
        <item>
         <widget class="QCheckBox" name="mapPortUpnp">
          <property name="toolTip">
+<<<<<<< HEAD
           <string>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</string>
+=======
+          <string>Automatically open the Ulucoin client port on the router. This only works when your router supports UPnP and it is enabled.</string>
+>>>>>>> dev
          </property>
          <property name="text">
           <string>Map port using &amp;UPnP</string>
@@ -209,7 +213,11 @@
        <item>
         <widget class="QCheckBox" name="connectSocks">
          <property name="toolTip">
+<<<<<<< HEAD
           <string>Connect to the Litecoin network through a SOCKS5 proxy.</string>
+=======
+          <string>Connect to the Ulucoin network through a SOCKS5 proxy.</string>
+>>>>>>> dev
          </property>
          <property name="text">
           <string>&amp;Connect through SOCKS5 proxy (default proxy):</string>
@@ -396,7 +404,11 @@
        <item>
         <widget class="QCheckBox" name="connectSocksTor">
          <property name="toolTip">
+<<<<<<< HEAD
           <string>Connect to the Litecoin network through a separate SOCKS5 proxy for Tor hidden services.</string>
+=======
+          <string>Connect to the Ulucoin network through a separate SOCKS5 proxy for Tor hidden services.</string>
+>>>>>>> dev
          </property>
          <property name="text">
           <string>Use separate SOCKS5 proxy to reach peers via Tor hidden services:</string>

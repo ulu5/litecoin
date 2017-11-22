@@ -124,7 +124,11 @@ void AskPassphraseDialog::accept()
                                          "<qt>" +
                                          tr("%1 will close now to finish the encryption process. "
                                          "Remember that encrypting your wallet cannot fully protect "
+<<<<<<< HEAD
                                          "your litecoins from being stolen by malware infecting your computer.").arg(tr(PACKAGE_NAME)) +
+=======
+                                         "your ulucoins from being stolen by malware infecting your computer.").arg(tr(PACKAGE_NAME)) +
+>>>>>>> dev
                                          "<br><br><b>" +
                                          tr("IMPORTANT: Any previous backups you have made of your wallet file "
                                          "should be replaced with the newly generated, encrypted wallet file. "
